@@ -1,0 +1,10 @@
+[
+    {
+        "title": "General sponsor",
+        "logos": [{
+            "name": "Google",
+            "url": "https://www.developers.google.com",
+            "logoUrl": "../images/partners/developers.svg"
+        }]
+    }
+]
