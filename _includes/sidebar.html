@@ -1,3 +1,18 @@
+<div class="panel panel-success">
+  <div class="panel-heading">Latest Posts</div>
+  <div class="panel-body" style="padding: 0px;">
+    <ul class="nav nav-pills nav-stacked">
+      {% for post in site.posts limit:10 %}
+      <li>
+        <a href="{{ post.url }}">
+          {{ post.title }} <br />
+          <div class="post-details">{{post.author}} @ {{post.date | date_to_long_string}}</div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 <div class="panel panel-primary">
   <div class="panel-heading">Join GDG Baroda</div>
   <div class="panel-body">
