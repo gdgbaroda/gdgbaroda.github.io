@@ -14,4 +14,14 @@ body {
   background: #dedede;
 }
 
+a {
+  -webkit-transition: none;
+  -o-transition: all 0;
+  transition: none;
+}
+
+.fb-comments > span {
+	margin-top: 15px;
+}
+
 @import "post";
