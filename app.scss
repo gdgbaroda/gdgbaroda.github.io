@@ -3,15 +3,12 @@
 
 @import "paper.bootstrap.css";
 
-.navbar-brand {
-  padding: 20px 15px;
-  img {
-    height: 100%;
-  }
-}
-
 body {
   background: #dedede;
+}
+
+h3 {
+	font-weight: 300;
 }
 
 a {
@@ -20,8 +17,19 @@ a {
   transition: none;
 }
 
-.fb-comments > span {
-	margin-top: 15px;
+.navbar-brand {
+  padding: 20px 15px;
+  img {
+    height: 100%;
+  }
+}
+
+.navbar-nav .fa {
+	margin-right: 4px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #767676;
 }
 
 @import "post";

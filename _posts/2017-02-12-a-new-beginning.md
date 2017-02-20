@@ -2,7 +2,7 @@
 layout: post
 title: "A New Beginning!"
 date: 2017-02-12 9:00:00 +0530
-categories: general post
+categories: general
 author: Manan Jadhav
 ---
 

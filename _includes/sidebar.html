@@ -6,7 +6,7 @@
       <li>
         <a href="{{ post.url }}">
           {{ post.title }} <br />
-          <div class="post-details">{{post.author}} @ {{post.date | date_to_long_string}}</div>
+          <div class="post-details">By {{post.author}} on {{post.date | date_to_string}}</div>
         </a>
       </li>
       {% endfor %}
@@ -17,12 +17,12 @@
   <div class="panel-heading">Join GDG Baroda</div>
   <div class="panel-body">
     <p>
-      We are an open for all and diverse group, students, industry, professionals, all are welcome !
+      We are open for everyone: groups, students, industry professionals, all are welcome!
     </p>
     <p>
       By filling the form, you are showing your interest in joining GDG Baroda. You will be added to our community
       when you attend your first event.
     </p>
-    <a class="btn btn-block btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScsk2JpttDCSVtTlNmrXXY3XtAoCmGn9HuIv9B9dDkEMIBghA/viewform">I want to join !</a>
+    <a class="btn btn-block btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScsk2JpttDCSVtTlNmrXXY3XtAoCmGn9HuIv9B9dDkEMIBghA/viewform">I want to join!</a>
   </div>
 </div>
