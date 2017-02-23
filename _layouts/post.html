@@ -1,10 +1,14 @@
 ---
 layout: base
 ---
+
 <div class="row">
   <div class="col-md-9">
     <div class="panel panel-body">
+
       {% include post_content.html %}
+
+      <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="4" data-width="100%"></div>
     </div>
   </div>
   <div class="col-md-3">

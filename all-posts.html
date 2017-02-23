@@ -4,13 +4,14 @@ layout: base
 <div class="row">
   <div class="col-md-12">
     <h3>All Posts</h3>
+    <br />
     <div class="row">
     {% for post in site.posts %}
       <div class="col-md-3">
         <div class="panel panel-body post-preview">
           <a href="{{ post.url }}"> {{ post.title }} </a>
           <br />
-          <div class="post-details">{{post.author}} @ {{post.date | date_to_long_string}}</div>
+          <div class="post-details">By {{post.author}} on {{post.date | date_to_string}}</div>
         </div>
       </div>
     {% endfor %}

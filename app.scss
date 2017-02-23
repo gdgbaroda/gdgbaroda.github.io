@@ -3,6 +3,20 @@
 
 @import "paper.bootstrap.css";
 
+body {
+  background: #dedede;
+}
+
+h3 {
+	font-weight: 300;
+}
+
+a {
+  -webkit-transition: none;
+  -o-transition: all 0;
+  transition: none;
+}
+
 .navbar-brand {
   padding: 20px 15px;
   img {
@@ -10,8 +24,12 @@
   }
 }
 
-body {
-  background: #dedede;
+.navbar-nav .fa {
+	margin-right: 4px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #767676;
 }
 
 @import "post";
