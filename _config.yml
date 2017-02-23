@@ -17,7 +17,7 @@ title: Google Developers Group, Baroda
 email: manan@gdgbaroda.com
 description: An open-for-all and diverse developer community
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gdgbaroda.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
