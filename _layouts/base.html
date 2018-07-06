@@ -9,8 +9,10 @@
   <title>{{site.title}} | {{site.description}}</title>
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   <link href="/app.css" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css"/>
+  
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -31,25 +33,20 @@
     }(document, 'script', 'facebook-jssdk'));
   </script>
 
-
-
   {% include navbar.html %}
   <div class="container">
     {{content}}
+    <div class="row">
+      <div class="col-md-12">
+        <p>
+          <em>
+          Disclaimer: GDG Baroda is an independent group; our activities and the opinions expressed 
+          on this page should in no way be linked to Google, the corporation.
+          </em>
+        </p>
+      </div>
+    </div>
   </div>
-
-
-
-<!-- jQuery -->
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-
-<!-- Bootstrap JS -->
-<script
-  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"  crossorigin="anonymous"></script>
 
 </body>
 </html>
