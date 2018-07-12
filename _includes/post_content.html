@@ -1,7 +1,18 @@
-<h3>{{page.title}}</h3>
-<h5><small>posted by {{page.author}} on {{page.date | date_to_long_string}}</small></h5>
-{% for category in page.categories%}
-  <span class="label label-info">{{category}}</span>
-{% endfor %}
+<h3 class="post-title">{{page.title}}</h3>
+<div class="post-meta">
+  Posted by {{page.author}} in
+  {% for category in page.categories%}
+    <span class="label label-primary">{{category}}</span>
+  {% endfor %}
+  <br />
+  Tags : 
+  {% for tag in page.tags%}
+    <span class="label label-default">{{tag}}</span>
+  {% endfor %}
+  <br />
+  <b>{{page.date | date_to_long_string}}</b>
+</div>
 <br /><br />
-{{content}}
+<div class="post-content">
+  {{content}}
+</div>
