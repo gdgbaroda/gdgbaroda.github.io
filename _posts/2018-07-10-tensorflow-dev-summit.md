@@ -32,7 +32,7 @@ The upcoming session was by our own rockstar, Daniel Phiri on Twitter Sentiment 
 
 Next session was on, well it was not a session actually. We people at GDG Baroda are fun loving guys and playing Kahoot is like an addiction. So, how can we miss it this time? Our rockstar GDG lead Rahul Banker is our favorite quiz master and he really knows his job. Don’t believe me? Then join us for the  upcoming event and see yourself and it's good chance to win goodies as well. Here’s a glimpse of quiz:
 
-![ It's time for Kahoot ](/home/hacky/Desktop/Final/old/gdgbaroda.github.io/_posts/%7B%7Bpage.assets%7D%7D/kahoot.jpeg){:class="img-responsive" :height="400px" width="500px" : .center-image}
+![ It's time for Kahoot ]({{page.assets}}/kahoot.jpeg){:class="img-responsive" :height="400px" width="500px" : .center-image}
 
 The last session was on “Create sequential models using Keras” by  Dhrumil Barot. He showed a demo on emotion detection using machine learning and all attendees got a chance to perform it on their machine as well. 
 
