@@ -11,8 +11,7 @@ assets: "/assets/2018-07/GDG-WTM-Meetup-on-Agile"
 This was the first Women Tech-makers Meetup in the year 2018. The topic was AGILE- by Kratika 
 Shah.
 
-WTM is the sister branch of GDG to promote women in software. In Vadodara, the creation of a [WTM Vadodara](https://twitter.com/WTMBaroda) chapter was announced in October 2017
-at the GDG DevFest 2017. 
+WTM is the sister branch of GDG to promote women in software. In Baroda, the creation of a [WTM Baroda](https://twitter.com/WTMBaroda) chapter was announced in October 2017 at the GDG DevFest 2017. 
 
 The talk started with a small video titled "Be fearless".
 
