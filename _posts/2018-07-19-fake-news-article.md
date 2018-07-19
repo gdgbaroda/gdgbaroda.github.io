@@ -43,14 +43,17 @@ Mainly there are 6 types of fake news:
 **1.CLICKBAIT**
 
 These are stories that are deliberately fabricated to gain more website visitors and increase advertising revenue for websites. Clickbait stories use sensationalist headlines to grab attention and drive click-throughs to the publisher website, normally at the expense of truth or accuracy.
+        
 ![Clickbait News](/assets/2018-07/fake-news-article/clickbait_news.png){: class="img-responsive" : .center-image }
 
 **2.Propaganda**
 Stories that are created to deliberately mislead audiences, promote a biased point of view or particular political cause or agenda.
+
 ![Propaganda News](/assets/2018-07/fake-news-article/propaganda_news.png){: class="img-responsive" : .center-image }
 
 **3. Satire/Parody**
 Lots of websites and social media accounts publish fake news stories for entertainment and parody. For example; The Onion, Waterford Whispers, The Daily Mash, etc.
+
 ![Satirical News](/assets/2018-07/fake-news-article/satirical_news.png){: class="img-responsive" : .center-image }
 
 **4.Sloppy Journalism**
@@ -61,6 +64,7 @@ Stories that are not completely false can be distorted using misleading or sensa
 
 **6.Biased/Slanted News**
 Many people are drawn to news or stories that confirm their own beliefs or biases and fake news can prey on these biases. Social media news feeds tend to display news and articles that they think we will like based on our personalized searches.
+
 ![Slanted News](/assets/2018-07/fake-news-article/slanted_news.png){: class="img-responsive" : .center-image }
 
 * **FIGHTING FAKE NEWS:**
@@ -75,7 +79,7 @@ Whatsapp took the responsibility after mob lynching incident and took help of ne
 
 Whatapp has launched a feature in its latest update which shows whether the message has been forwarded or not. It has already been beta tested in India and Brazil which has a user base of around 300 million. It will allow users to report a message as spam or contact directly to whatsapp.
 
-**2. Facebook**
+**2. Facebook**   
 Facebook has been recently attacked not only because of spread of fake news which could have affected U.S.Presidential elections in 2016 but it also has been accused of data breach which was used by cambridge analytica. Due to all this facebook has started working towards safety of user data and making tools that help create a better society. Facebook has released a feature of Fact Checker which will associate and dictate as to how reliable and trustable is the source of news. Understanding that freedom of expression is a must required principle for the platform and this could lead to fake news, what facebook does is it reduces future views of the post by 80% when third party fact checker denies truth in it. One such examples is Alex Jones, founder of the InfoWars and a fake news peddler.
 
 **3. Google and Youtube**
@@ -118,10 +122,17 @@ Satirical sites are popular online and sometimes it is not always clear whether 
 * **REFERENCES**
 
 **1.** [https://en.wikipedia.org/wiki/Fake_news](https://en.wikipedia.org/wiki/Fake_news)
+
 **2.** [https://techcrunch.com/2018/07/13/her-emails-two-point-oh/](https://techcrunch.com/2018/07/13/her-emails-two-point-oh/)
+
 **3.** [https://www.theverge.com/2018/3/20/17142788/google-news-initiative-fake-news-journalist-subscriptions](https://www.theverge.com/2018/3/20/17142788/google-news-initiative-fake-news-journalist-subscriptions)
+
 **4.** [http://theconversation.com/trump-may-owe-his-2016-victory-to-fake-news-new-study-suggests-91538](http://theconversation.com/trump-may-owe-his-2016-victory-to-fake-news-new-study-suggests-91538)
+
 **5.** [https://www.webwise.ie/teachers/what-is-fake-news/](https://www.webwise.ie/teachers/what-is-fake-news/)
+
 **6.** [https://www.thedailystar.net/online/whatsapp-labels-forwarded-messages-fight-fake-news-1604131](https://www.thedailystar.net/online/whatsapp-labels-forwarded-messages-fight-fake-news-1604131)
+
 **7.** [https://money.cnn.com/2018/07/10/technology/whatsapp-india-newspaper-ads-fake-news/index.html](https://money.cnn.com/2018/07/10/technology/whatsapp-india-newspaper-ads-fake-news/index.html)
+
 **8.** [http://gujaratsamacharepaper.com/nd/gsnews2.php?pageid=GUJARAT_BAR_20180711_14](http://gujaratsamacharepaper.com/nd/gsnews2.php?pageid=GUJARAT_BAR_20180711_14)
