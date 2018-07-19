@@ -46,12 +46,12 @@ Mainly there are 6 types of fake news:
 
 These are stories that are deliberately fabricated to gain more website visitors and increase advertising revenue for websites. Clickbait stories use sensationalist headlines to grab attention and drive click-throughs to the publisher website, normally at the expense of truth or accuracy.           
 ![Clickbait News](/assets/2018-07/fake-news-article/clickbait_news.png)
-{: class="img-responsive" : .center-image }
+{ : class="img-responsive" : .center-image }
 
 **2.Propaganda**  
 Stories that are created to deliberately mislead audiences, promote a biased point of view or particular political cause or agenda.   
 ![Propaganda News](/assets/2018-07/fake-news-article/propaganda_news.png)
-{: class="img-responsive" : .center-image }
+{ : class="img-responsive" : .center-image }
 
 **3. Satire/Parody**   
 Lots of websites and social media accounts publish fake news stories for entertainment and parody. For example; The Onion, Waterford Whispers, The Daily Mash, etc.   
