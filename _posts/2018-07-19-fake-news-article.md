@@ -7,7 +7,9 @@ author: Rushi M Thakker
 assets: "/assets/2018-07/fake-news-article"
 ---
 
-<center>**GREAT NEWS!! OR FAKE NEWS??!!**</center>![Think](/assets/2018-07/fake-news-article/think.jpeg){: class="img-responsive" : .center-image }
+<center>**GREAT NEWS!! OR FAKE NEWS??!!**</center>!
+[Think](/assets/2018-07/fake-news-article/think.jpeg)
+{: class="img-responsive" : .center-image }
 
 
 As we all know today that “Fake News” has become a major problem in all parts of the world including our country India. It has lead to staggering consequences like mob lynching in India to resurgence of diseases in Brazil. But before jumping directly on the topic, let’s refer to the technical definition for newbies on this topic:
@@ -16,7 +18,8 @@ As we all know today that “Fake News” has become a major problem in all part
 
 <cite> “Fake news is a type of yellow journalism or propaganda that consists of deliberate misinformation or hoaxes spread via traditional print and broadcast news media or online social media” </cite>
 
-![Fake news in old days](/assets/2018-07/fake-news-article/fake news in old days.jpeg){: class="img-responsive" : .center-image }
+![Fake news in old days](/assets/2018-07/fake-news-article/fake news in old days.jpeg)
+{: class="img-responsive" : .center-image }
 
 Fake news is not a new phenomenon and is cited to be present since 13th century BC. But with rapid adoption of Internet and specially social media this has got special attention and now requires serious actions. Lets look at some of the major impacts of fake news in recent times:
 
@@ -42,15 +45,18 @@ Mainly there are 6 types of fake news:
 **1.CLICKBAIT**
 
 These are stories that are deliberately fabricated to gain more website visitors and increase advertising revenue for websites. Clickbait stories use sensationalist headlines to grab attention and drive click-throughs to the publisher website, normally at the expense of truth or accuracy.           
-![Clickbait News](/assets/2018-07/fake-news-article/clickbait_news.png){: class="img-responsive" : .center-image }
+![Clickbait News](/assets/2018-07/fake-news-article/clickbait_news.png)
+{: class="img-responsive" : .center-image }
 
 **2.Propaganda**  
 Stories that are created to deliberately mislead audiences, promote a biased point of view or particular political cause or agenda.   
-![Propaganda News](/assets/2018-07/fake-news-article/propaganda_news.png){: class="img-responsive" : .center-image }
+![Propaganda News](/assets/2018-07/fake-news-article/propaganda_news.png)
+{: class="img-responsive" : .center-image }
 
 **3. Satire/Parody**   
 Lots of websites and social media accounts publish fake news stories for entertainment and parody. For example; The Onion, Waterford Whispers, The Daily Mash, etc.   
-![Satirical News](/assets/2018-07/fake-news-article/satirical_news.png){: class="img-responsive" : .center-image }
+![Satirical News](/assets/2018-07/fake-news-article/satirical_news.png)
+{: class="img-responsive" : .center-image }
 
 **4.Sloppy Journalism**   
 Sometimes reporters or journalists may publish a story with unreliable information or without checking all of the facts which can mislead audiences. For example, during the U.S. elections, fashion retailer Urban Outfitters published an Election Day Guide, the guide contained incorrect information telling voters that they needed a ‘voter registration card’. This is not required by any state in the U.S. for voting.
@@ -60,7 +66,8 @@ Stories that are not completely false can be distorted using misleading or sensa
 
 **6.Biased/Slanted News**  
 Many people are drawn to news or stories that confirm their own beliefs or biases and fake news can prey on these biases. Social media news feeds tend to display news and articles that they think we will like based on our personalized searches.         
-![Slanted News](/assets/2018-07/fake-news-article/slanted_news.png){: class="img-responsive" : .center-image }      
+![Slanted News](/assets/2018-07/fake-news-article/slanted_news.png)
+{: class="img-responsive" : .center-image }      
 
 * **FIGHTING FAKE NEWS:**
 
@@ -70,7 +77,8 @@ Fighting fake news is not job of one person or organization. It is a collective 
 
 Whatsapp took the responsibility after mob lynching incident and took help of newspaper media to spread awareness regarding fake news on 10th July. Whatsapp published an Ad on major newspapers in country and provided 10 tips to fight fake news.
 
-![Whatsapp Ad](/assets/2018-07/fake-news-article/whatsapp ad.jpeg){: class="img-responsive" : .center-image }
+![Whatsapp Ad](/assets/2018-07/fake-news-article/whatsapp ad.jpeg)
+{: class="img-responsive" : .center-image }
 
 Whatapp has launched a feature in its latest update which shows whether the message has been forwarded or not. It has already been beta tested in India and Brazil which has a user base of around 300 million. It will allow users to report a message as spam or contact directly to whatsapp. 
 
