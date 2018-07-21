@@ -5,7 +5,7 @@ date: 2018-07-18
 categories: ["Events"]
 tags: ["Google IO", "IO 2018 Extended"]
 author: Darshil Bhatt
-assets: "/assets/2018-07/Google IO 2018 Extended"
+
 
 ---
 We were so much excited when we got confirmation for Google IO 2018 Extended hosted by [GDG Baroda](https://gdgbaroda.com/).Thousands of people around the globe were watching the live streaming of amazing [Google IO 2018](https://www.youtube.com/watch?v=ogfYd705cRs) which was held on 8th May at Shoreline,California.So,in the same way we also got opportunity to enjoy live streaming by GDG Baroda.
@@ -18,6 +18,7 @@ Before live streaming started, some members of community delivered the talks on 
 * Google Cloud Platform
 
 Discussions of past IO products.
+
 <img src="https://pbs.twimg.com/media/DdYgIbqVAAA9MfQ.jpg" width="600" height="500">
 
 We enjoyed seeing the video of Google IO venue which was made by the two co-organizers of GDG Baroda who were at Shoreline.Click on the video below to watch.
@@ -42,10 +43,8 @@ Another big thing,Google Maps will get configured with Augmented Reality & it wi
 Apart from these,there was one interesting announcement about the subsidiary of Google known as [Waymo](https://en.wikipedia.org/wiki/Waymo),which works on the production of autonomous cars. In this IO, Google announced that it is turning self-driving cars from science fiction into reality with the help of AI.For more details [click here](https://www.youtube.com/watch?v=UrJ4-AUL4U0).
 
 Fully enjoyed the event!
+
 <img src="https://pbs.twimg.com/media/DdYgGFzV4AELfgf.jpg" width="600" height="500">
-
-
-
 
 Being with [GDG Baroda](https://gdgbaroda.com/), is always a great thing!
 
