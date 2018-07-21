@@ -7,7 +7,7 @@ author: Rushi M Thakker
 assets: "/assets/2018-07/fake-news-article"
 ---
 
-## GREAT NEWS!! OR FAKE NEWS??!! ![Think](/assets/2018-07/fake-news-article/think_new_4.jpg)
+## GREAT NEWS!! OR FAKE NEWS??!! ![Think](/assets/2018-07/fake-news-article/think_new.jpg)
 
 
 As we all know today that “Fake News” has become a major problem in all parts of the world including our country India. It has lead to staggering consequences like mob lynching in India to resurgence of diseases in Brazil. But before jumping directly on the topic, let’s refer to the technical definition for newbies on this topic:
