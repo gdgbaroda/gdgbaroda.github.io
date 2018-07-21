@@ -24,6 +24,8 @@ to 34% from 1994 to 2004 due to introduction of AGILE.
 
 In a nutshell, AGILE should be collaboration between self-organising cross-functional teams.
 The manifesto can be seen from [here](www.agilemanifesto.org). AGILE helps the developers to 
+
+The manifesto can be seen from [here](http://www.agilemanifesto.org). AGILE helps the developers to 
 understand the priorities of a product; whether they should be released in  the first versions 
 or the extended versions. 
 
