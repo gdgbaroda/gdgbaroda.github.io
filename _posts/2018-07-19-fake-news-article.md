@@ -26,7 +26,7 @@ Fake news is not a new phenomenon and is cited to be present since 13th century 
 It is not a 100% guaranteed information that fake news helped Mr. Donald Trump win the elections but it is quite certain that there was a huge increase in the number of fake news created during election campaigns. One of the fake news writer Paul Horner had an “enormous impact” on the 2016 U.S. presidential elections as reported by CBS News. He tried to attack Trump and his supporters but later realised that instead of hurting his(Trumps) campaign, maybe he helped it.
 
 **2. 2,000 Rupee Note with sensors in India:**
-On November 8, 2016, India established a 2,000-rupee currency bill on the same day as the Indian 500 and 1,000 rupee note demonetization. One of the main social media platforms responsible for fake news in India is Whatsapp. It has a user base of over 200 million active users per month. Fake news on whatsapp started spreading at a rapid pace that the new Rs 2,000 note is equipped with sensors which would help in tracking the notes even 120 meters below the earth. All kinds of different sensor and nano technology stories started surfacing on whatsapp and country’s main stream outlets. Finally, finance minister Arun Jaitley had to give a statement denying all such sensor news in order to clear the falsities.
+On November 8, 2016, India established a 2,000-rupee currency bill on the same day as the Indian 500 and 1,000 rupee note demonetization. One of the main social media platforms responsible for fake news in India is WhatsApp. It has a user base of over 200 million active users per month. Fake news on whatsapp started spreading at a rapid pace that the new Rs 2,000 note is equipped with sensors which would help in tracking the notes even 120 meters below the earth. All kinds of different sensor and nano technology stories started surfacing on whatsapp and country’s main stream outlets. Finally, finance minister Arun Jaitley had to give a statement denying all such sensor news in order to clear the falsities.
 
 There are a huge number of other examples which one could cite in recent past due to which lives of normal human beings have been affected due to fake news. Recently several mob lynching incidents in India triggered WhatsApp to act immediately and curb such actions. Ok, now before anything else, lets look at how fake news work:
 
@@ -74,11 +74,11 @@ Many people are drawn to news or stories that confirm their own beliefs or biase
 
 Fighting fake news is not job of one person or organization. It is a collective effort. All social media platforms and IT giants have agreed that it is not 100% possible to eradicate fake news from their platform completely by themselves. It would require a collective effort to do the same. Before we look at duties of individuals in fighting fake news, let’s look at what social media giants are doing to stop the same:
 
-**1. Whatsapp**
+**1. WhatsApp**
 
-Whatsapp took the responsibility after mob lynching incident and took help of newspaper media to spread awareness regarding fake news on 10th July. Whatsapp published an Ad on major newspapers in country and provided 10 tips to fight fake news.
+WhatsApp took the responsibility after mob lynching incident and took help of newspaper media to spread awareness regarding fake news on 10th July. WhatsApp published an Ad on major newspapers in country and provided 10 tips to fight fake news.
 
-![Whatsapp Ad](/assets/2018-07/fake-news-article/whatsapp ad.jpg){:class="img-responsive" : .center-image }
+![WhatsApp Ad](/assets/2018-07/fake-news-article/whatsapp ad.jpg){:class="img-responsive" : .center-image }
 
 Whatapp has launched a feature in its latest update which shows whether the message has been forwarded or not. It has already been beta tested in India and Brazil which has a user base of around 300 million. It will allow users to report a message as spam or contact directly to whatsapp.
 
@@ -88,7 +88,7 @@ Facebook has been recently attacked not only because of spread of fake news whic
 
 **3. Google and Youtube**
 
-Google has invested $ 300 million and youtube has invested $ 2.5 Cr. to fight fake news. Google News Initiative and Breaking News Section on youtube are the result of the same. Youtube has been working out to display news only from authoratative sources and display a warning in case it is not sure that the contents of video might change.
+Google has invested $ 300 million and YouTube has invested $ 460 thousand to fight fake news. Google News Initiative and Breaking News Section on YouTube are the result of the same. Youtube has been working out to display news only from authoratative sources and display a warning in case it is not sure that the contents of video might change.
 
 #### DUTIES OF THE INDIVIDUALS ####
 
