@@ -5,10 +5,14 @@ date: 2018-07-18
 categories: ["Events"]
 tags: ["Google IO", "IO 2018 Extended"]
 author: Darshil Bhatt
-
+assets: "/assets/2018-07/io-extended"
 
 ---
-We were so much excited when we got confirmation for Google IO 2018 Extended hosted by [GDG Baroda](https://gdgbaroda.com/).Thousands of people around the globe were watching the live streaming of amazing [Google IO 2018](https://www.youtube.com/watch?v=ogfYd705cRs) which was held on 8th May at Shoreline,California.So,in the same way we also got opportunity to enjoy live streaming by GDG Baroda.
+We were so much excited when we got confirmation for Google IO 2018 Extended hosted by [GDG Baroda](https://gdgbaroda.com/).Thousands of people around the globe were watching the live streaming of amazing Google IO 2018 which was held on 8th May at Shoreline,California.So,in the same way we also got opportunity to enjoy live streaming by GDG Baroda.
+
+[![Google IO 2018](https://i.ytimg.com/an_webp/ogfYd705cRs/mqdefault_6s.webp?du=3000&sqp=CPLc0NoF&rs=AOn4CLCHeW_hdWpyRbohVjDPUDO6KZcq7Q)](https://www.youtube.com/watch?v=ogfYd705cRs)
+
+![Discussions]({{page.assets}}/a.jpg){:class="img-responsive" : .center-image :height="400px" width="500px"}
 
 Before live streaming started, some members of community delivered the talks on past Google IO conferences.It was so interesting.They discussed about several awesome products launched in past IO conferences,which are used by the people at large scale in today's world.There was interaction with the attendees like what new products they are expecting in IO this time? There were brief discussions on products like:-
 
