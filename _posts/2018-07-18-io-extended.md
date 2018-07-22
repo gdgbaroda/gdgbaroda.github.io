@@ -19,11 +19,14 @@ Before live streaming started, some members of community delivered the talks on 
 
 Discussions of past IO products.
 
-<center><img src="https://pbs.twimg.com/media/DdYgIbqVAAA9MfQ.jpg" width="600" height="500"></center>
+<img src="https://pbs.twimg.com/media/DdYgIbqVAAA9MfQ.jpg" width="600" height="500">
+
+
 
 We enjoyed seeing the video of Google IO venue which was made by the two co-organizers of GDG Baroda who were at Shoreline.Click on the video below to watch.
 
-<center>[![](https://i.ytimg.com/an_webp/Gty7tpsonyM/mqdefault_6s.webp?du=3000&sqp=CLP-zNoF&rs=AOn4CLCs1U9gC7yq2BQaA2V00MQI7sMt3A)](https://www.youtube.com/watch?v=Gty7tpsonyM)</center>
+[![IO venue](https://i.ytimg.com/an_webp/Gty7tpsonyM/mqdefault_6s.webp?du=3000&sqp=CJGC0NoF&rs=AOn4CLA82M3zNOit-FSTLZQikmjPd3HqMQ)](https://www.youtube.com/watch?v=Gty7tpsonyM)
+
 
 That was just an awesome! Finally,the live streaming started with the rocking keynote by Sundar Pichai. It was a feeling like as we are actually attending the event at Shoreline itself.We were just enjoying the keynote in the anticipation of products that are coming up.Sundar Pichai & other Google leads were speaking about the coming products of Google.This time in IO, the big announcements in the Google technologies were:-
 
@@ -44,7 +47,7 @@ Apart from these,there was one interesting announcement about the subsidiary of 
 
 Fully enjoyed the event!
 
-<center><img src="https://pbs.twimg.com/media/DdYgGFzV4AELfgf.jpg" width="600" height="500"></center>
+<img src="https://pbs.twimg.com/media/DdYgGFzV4AELfgf.jpg" width="600" height="500">
 
 Being with [GDG Baroda](https://gdgbaroda.com/), is always a great thing!
 
