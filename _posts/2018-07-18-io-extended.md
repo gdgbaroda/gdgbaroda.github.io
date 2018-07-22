@@ -12,7 +12,7 @@ We were so much excited when we got confirmation for Google IO 2018 Extended hos
 
 [![Google IO 2018](https://i.ytimg.com/an_webp/ogfYd705cRs/mqdefault_6s.webp?du=3000&sqp=CPLc0NoF&rs=AOn4CLCHeW_hdWpyRbohVjDPUDO6KZcq7Q)](https://www.youtube.com/watch?v=ogfYd705cRs)
 
-![Discussions]({{page.assets}}/a.jpg){:class="img-responsive" : .center-image :height="400px" width="500px"}
+
 
 Before live streaming started, some members of community delivered the talks on past Google IO conferences.It was so interesting.They discussed about several awesome products launched in past IO conferences,which are used by the people at large scale in today's world.There was interaction with the attendees like what new products they are expecting in IO this time? There were brief discussions on products like:-
 
@@ -21,9 +21,8 @@ Before live streaming started, some members of community delivered the talks on 
 * Google Maps
 * Google Cloud Platform
 
-Discussions of past IO products.
+![Discussions of past IO products]({{page.assets}}/3.jpg){:class="img-responsive" : .center-image :height="400px" width="500px"}
 
-<img src="https://pbs.twimg.com/media/DdYgIbqVAAA9MfQ.jpg" width="600" height="500">
 
 
 
@@ -51,7 +50,7 @@ Apart from these,there was one interesting announcement about the subsidiary of 
 
 Fully enjoyed the event!
 
-<img src="https://pbs.twimg.com/media/DdYgGFzV4AELfgf.jpg" width="600" height="500">
+![Fully enjoyed the event!]({{page.assets}}/a.jpg){:class="img-responsive" : .center-image :height="400px" width="500px"}
 
 Being with [GDG Baroda](https://gdgbaroda.com/), is always a great thing!
 
