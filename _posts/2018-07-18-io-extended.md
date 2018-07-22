@@ -19,18 +19,18 @@ Before live streaming started, some members of community delivered the talks on 
 
 Discussions of past IO products.
 
-<img src="https://pbs.twimg.com/media/DdYgIbqVAAA9MfQ.jpg" width="600" height="500">
+<center><img src="https://pbs.twimg.com/media/DdYgIbqVAAA9MfQ.jpg" width="600" height="500"></center>
 
 We enjoyed seeing the video of Google IO venue which was made by the two co-organizers of GDG Baroda who were at Shoreline.Click on the video below to watch.
 
-[![](https://i.ytimg.com/an_webp/Gty7tpsonyM/mqdefault_6s.webp?du=3000&sqp=CLP-zNoF&rs=AOn4CLCs1U9gC7yq2BQaA2V00MQI7sMt3A)](https://www.youtube.com/watch?v=Gty7tpsonyM)
+<center>[![](https://i.ytimg.com/an_webp/Gty7tpsonyM/mqdefault_6s.webp?du=3000&sqp=CLP-zNoF&rs=AOn4CLCs1U9gC7yq2BQaA2V00MQI7sMt3A)](https://www.youtube.com/watch?v=Gty7tpsonyM)</center>
 
 That was just an awesome! Finally,the live streaming started with the rocking keynote by Sundar Pichai. It was a feeling like as we are actually attending the event at Shoreline itself.We were just enjoying the keynote in the anticipation of products that are coming up.Sundar Pichai & other Google leads were speaking about the coming products of Google.This time in IO, the big announcements in the Google technologies were:-
 
 * Google AI
 * Google Assistant with "continued conversation"
 * Google Photos with AI
-* YouTube & Google Assistant will be on smart displays.
+* YouTube & Google Assistant will be on smart displays
 * Google Maps configured with Google Assistant
 * New Generation for TPU
 * Google News redesigned with AI
@@ -44,7 +44,7 @@ Apart from these,there was one interesting announcement about the subsidiary of 
 
 Fully enjoyed the event!
 
-<img src="https://pbs.twimg.com/media/DdYgGFzV4AELfgf.jpg" width="600" height="500">
+<center><img src="https://pbs.twimg.com/media/DdYgGFzV4AELfgf.jpg" width="600" height="500"></center>
 
 Being with [GDG Baroda](https://gdgbaroda.com/), is always a great thing!
 
