@@ -10,7 +10,7 @@ assets: "/assets/2018-07/io-extended"
 ---
 We were so much excited when we got confirmation for Google IO 2018 Extended hosted by [GDG Baroda](https://gdgbaroda.com/).Thousands of people around the globe were watching the live streaming of amazing Google IO 2018 which was held on 8th May at Shoreline,California.So,in the same way we also got opportunity to enjoy live streaming by GDG Baroda.
 
-<center>[![Google IO 2018](https://i.ytimg.com/an_webp/ogfYd705cRs/mqdefault_6s.webp?du=3000&sqp=CPLc0NoF&rs=AOn4CLCHeW_hdWpyRbohVjDPUDO6KZcq7Q)](https://www.youtube.com/watch?v=ogfYd705cRs)</center>
+[![Google IO 2018](https://i.ytimg.com/an_webp/ogfYd705cRs/mqdefault_6s.webp?du=3000&sqp=CPLc0NoF&rs=AOn4CLCHeW_hdWpyRbohVjDPUDO6KZcq7Q)](https://www.youtube.com/watch?v=ogfYd705cRs)
 
 
 
@@ -28,7 +28,7 @@ Before live streaming started, some members of community delivered the talks on 
 
 We enjoyed seeing the video of Google IO venue which was made by the two co-organizers of GDG Baroda who were at Shoreline.Click on the video below to watch.
 
-<center>[![IO venue at Shoreline](https://i.ytimg.com/an_webp/Gty7tpsonyM/mqdefault_6s.webp?du=3000&sqp=CJGC0NoF&rs=AOn4CLA82M3zNOit-FSTLZQikmjPd3HqMQ)](https://www.youtube.com/watch?v=Gty7tpsonyM)</center>
+[![IO venue at Shoreline](https://i.ytimg.com/an_webp/Gty7tpsonyM/mqdefault_6s.webp?du=3000&sqp=CJGC0NoF&rs=AOn4CLA82M3zNOit-FSTLZQikmjPd3HqMQ)](https://www.youtube.com/watch?v=Gty7tpsonyM)
 
 
 That was just an awesome! Finally,the live streaming started with the rocking keynote by Sundar Pichai. It was a feeling like as we are actually attending the event at Shoreline itself.We were just enjoying the keynote in the anticipation of products that are coming up.Sundar Pichai & other Google leads were speaking about the coming products of Google.This time in IO, the big announcements in the Google technologies were:-
