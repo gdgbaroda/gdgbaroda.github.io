@@ -32,6 +32,8 @@ sass:
   sass_dir: _scss
 gems:
   - jekyll-feed
+timezone: 'Asia/Kolkata'
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
