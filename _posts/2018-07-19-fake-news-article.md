@@ -15,7 +15,7 @@ As we all know today that “Fake News” has become a major problem in all part
 
 <cite> “Fake news is a type of yellow journalism or propaganda that consists of deliberate misinformation or hoaxes spread via traditional print and broadcast news media or online social media” </cite>
 
-![Fake news in old days](/assets/2018-07/fake-news-article/fake news in old days.jpg){:class="img-responsive" : .center-image }
+![Fake news in old days](/assets/2018-07/fake-news-article/fake_news_in_old_days.jpg){:class="img-responsive" : .center-image }
 
 Fake news is not a new phenomenon and is cited to be present since 13th century BC. But with rapid adoption of Internet and specially social media this has got special attention and now requires serious actions. Lets look at some of the major impacts of fake news in recent times:
 
@@ -78,7 +78,7 @@ Fighting fake news is not job of one person or organization. It is a collective 
 
 WhatsApp took the responsibility after mob lynching incident and took help of newspaper media to spread awareness regarding fake news on 10th July. WhatsApp published an Ad on major newspapers in country and provided 10 tips to fight fake news.
 
-![WhatsApp Ad](/assets/2018-07/fake-news-article/whatsapp ad.jpg){:class="img-responsive" : .center-image }
+![WhatsApp Ad](/assets/2018-07/fake-news-article/whatsapp_ad.jpg){:class="img-responsive" : .center-image }
 
 Whatapp has launched a feature in its latest update which shows whether the message has been forwarded or not. It has already been beta tested in India and Brazil which has a user base of around 300 million. It will allow users to report a message as spam or contact directly to whatsapp.
 
