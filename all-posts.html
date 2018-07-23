@@ -2,22 +2,24 @@
 layout: base
 ---
 <div class="row">
-    <h3>All Posts</h3>
-    <br />
-    <div class="row">
-    {% for post in site.posts %}
-      <div class="col-md-12">
-        <div class="panel panel-body post-preview">
-          <a class="title" href="{{ post.url }}"> {{ post.title }} </a>
-          <br />
-          <div class="post-details">By {{post.author}} on {{post.date | date_to_string}}</div>
-          <div class="post-excerpt">
-            {{post.excerpt | strip_html | truncatewords: 40}}
-            <br />
-            <a href="{{post.url}}">Read more <i class="fas fa-arrow-right"></i></a>
-          </div>
+    <div class="col-md-12">
+        <h3>All Posts</h3>
+        <br/>
+        <div class="row">
+            {% for post in site.posts %}
+            <div class="col-md-12">
+                <div class="panel panel-body post-preview">
+                    <a class="title" href="{{ post.url }}"> {{ post.title }} </a>
+                    <br/>
+                    <div class="post-details">By {{post.author}} on {{post.date | date_to_string}}</div>
+                    <div class="post-excerpt">
+                        {{post.excerpt | strip_html | truncatewords: 40}}
+                        <br/>
+                        <a href="{{post.url}}">Read more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
         </div>
-      </div>
-    {% endfor %}
     </div>
 </div>
