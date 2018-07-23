@@ -7,16 +7,21 @@
 body {
   background: #dedede;
   font-family: 'Roboto';
+  line-height: 1.618;
 }
 
 h3 {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 a {
   -webkit-transition: none;
   -o-transition: all 0;
   transition: none;
+}
+
+p {
+  font-size: medium;
 }
 
 .navbar-brand {
@@ -35,6 +40,7 @@ a {
 }
 
 .social-icons {
+  text-align: center;
   a {
     margin-right: 20px;
     color: #555;
