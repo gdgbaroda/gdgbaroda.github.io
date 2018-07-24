@@ -6,7 +6,7 @@
       <li>
         <a href="{{ post.url }}">
           {{ post.title }} <br />
-          <div class="post-details">By {{post.author}} on {{post.date | date_to_string}}</div>
+          <div class="post-details">By <highlight>{{post.author}}</highlight> on <highlight>{{post.date | date_to_string}}</highlight></div>
         </a>
       </li>
       {% endfor %}
@@ -22,11 +22,3 @@
     <a class="btn btn-block btn-primary" target="_blank" href="{{site.join_url}}">Join Us</a>
   </div>
 </div>
-<p class="social-icons">
-  <a href="{{site.facebook_url}}" target="_blank" style="color: #3B5998;">
-      <i class="fab fa-facebook fa-3x"></i>
-  </a>
-  <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" style="color: #1DA1F2;">
-      <i class="fab fa-twitter-square fa-3x"></i>
-  </a>
-</p>
