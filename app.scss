@@ -1,27 +1,46 @@
 ---
 ---
+@import "variables";
+
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
 
 @import "paper.bootstrap.css";
 
 body {
-  background: #dedede;
+  background: $lighter;
   font-family: 'Roboto';
   line-height: 1.618;
+  letter-spacing: normal;
+  color: $black;
 }
 
-h3 {
+h1,h2,h3,h4,h5,h6 {
   font-weight: 400;
+  color: $black;
+}
+
+strong {
+  font-weight: 500;
 }
 
 a {
   -webkit-transition: none;
   -o-transition: all 0;
   transition: none;
+  color: $link-color;
 }
 
 p {
   font-size: medium;
+  font-weight: 300;
+}
+
+.panel {
+  background-color: $white;
+}
+
+.navbar {
+  border-radius: 0;
 }
 
 .navbar-brand {
@@ -32,19 +51,57 @@ p {
 }
 
 .navbar-nav .fa {
-	margin-right: 4px;
+  margin-right: 4px;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #767676;
+  color: #090909;
 }
 
 .social-icons {
-  text-align: center;
+  display: table;
+  span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 32px;
+    color: #090909;
+    letter-spacing: 0px;
+    font-weight: 400;
+  }
   a {
-    margin-right: 20px;
     color: #555;
+    display: table-cell;
+    vertical-align: middle;
     text-decoration: none;
+    float: left;
+    margin-right: 10px;
+    i {
+      transition-duration: 500ms;
+    }
+  }
+}
+
+.social-icons {
+  a {
+    i:hover {
+      color: #090909;
+    }
+  }
+}
+
+.post-preview {
+  a {
+    i {
+      transition-duration: 500ms;
+    }
+  }
+}
+
+.post-preview:hover {
+  a {
+    i {
+      padding-left: 10px;
+    }
   }
 }
 

@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css"/>
-  
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -38,6 +37,25 @@
     {{content}}
     <div class="row">
       <div class="col-md-12">
+        <p class="social-icons">
+          <span>Follow Us</span>
+          <a href="{{site.facebook_url}}" target="_blank" style="color: #3B5998;">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" style="color: #1DA1F2;">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="{{site.youtube_url}}" target="_blank" style="color: #ff0000;">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+          <a href="{{site.meetup_url}}" target="_blank" style="color: #f13a59">
+            <i class="fab fa-meetup fa-2x"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
         <p>
           <em>
           Disclaimer: GDG Baroda is an independent group; our activities and the opinions expressed 
@@ -47,6 +65,9 @@
       </div>
     </div>
   </div>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://bootswatch.com/3/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
