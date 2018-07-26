@@ -25,9 +25,9 @@ Before live streaming started, some members of community delivered the talks on 
 
 We enjoyed seeing the video of Google IO venue which was made by the two co-organizers of GDG Baroda who were at Shoreline Amphitheatre.
 
-<!--<div class="embed-responsive embed-responsive-16by9">
-<iframe class="responsive-embed-item" width="560" height="315" src="https://www.youtube.com/embed/q_9Gv_Rio4k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>-->
+<div class="embed-responsive embed-responsive-16by9">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tJjDx5yUL0U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 It was just awesome! Finally, the live streaming started with the rocking keynote by Sundar Pichai. It was a feeling as if we are actually attending the event at Shoreline Amphitheatre itself. We were just enjoying the keynote in the anticipation of products that were coming up. Sundar Pichai & other Google leads were speaking about the coming products of Google. This time in IO conference, the big announcements in the Google technologies were:
 
