@@ -17,7 +17,7 @@ On first day, when team reached the venue, they were really shocked looking the 
 
 [![GDD Keynote](https://i.ytimg.com/vi/zJKcxogLJws/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC77j88u5ELPeoB9ztGMBs8kRLFpw)](https://www.youtube.com/watch?v=zJKcxogLJws&t=1030s)
 
-They talked about the advancement of Google in several domains, their projects in India and sessions that were to follow in those two days. They discussed how they plan to find next billion customers in India in the coming years, and for this they have initiated several projects to bring wi-fi facilities to rural cities and also to teach people to use these services. Trainings sessions, codelabs, project demos followed this keynote. The trainings and sessions covered several domains including Android, Assistant, Cloud, Mobile Web, etc. running in parallel. Also, all these things were being live streamed on [youtube](https://www.youtube.com/watch?v=EFF8lJZh7Ak&t=23836s). You can have a look at the complete detailed schedule [here](https://developers.google.com/events/gdd-india/schedule/day1).
+They explained about the advancement of Google in several domains, their projects in India and sessions that were to follow in those two days. They discussed how they plan to find next billion customers in India in the coming years, and for this they have initiated several projects to bring wi-fi facilities to rural cities and also to teach people to use these services. Trainings sessions, codelabs, project demos followed this keynote. The trainings and sessions covered several domains including Android, Assistant, Cloud, Mobile Web, etc. running in parallel. Also, all these things were being live streamed on [youtube](https://www.youtube.com/watch?v=EFF8lJZh7Ak&t=23836s). You can have a look at the complete detailed schedule [here](https://developers.google.com/events/gdd-india/schedule/day1).
 
 ![During Meetup]({{page.assets}}/during_meetup.jpg){:class="img-responsive" : .center-image :height="400px" width="500px"}
 
@@ -25,6 +25,6 @@ Apart from these sessions, there were demos of some fun projects which were deve
 
 Overall, the event was wonderful for them & all are waiting for its next iteration. Second day followed the schedule just same as on the first day. You can view it from [here](https://developers.google.com/events/gdd-india/schedule/day2). If you want to watch the highlights of the events, or watch some sessions and trainings from those two days, please visit [here](https://www.youtube.com/playlist?list=PLlyCyjh2pUe_Xyqy9K6sBxwr0L8QaU7dq).
 
-Enthusiasts always learn with fun & joy when it comes about GDG Baroda[https://gdgbaroda.com/].
+Enthusiasts always learn with fun & joy when it comes about [GDG Baroda](https://gdgbaroda.com/).
 
 That's it for today's post. We'll continue our journey in upcoming post.
