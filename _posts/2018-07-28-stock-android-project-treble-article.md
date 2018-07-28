@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Stock Android Distribution And Project Treble"
+date: 2018-07-29 22:48:00 +0530
 categories: ["Technical Knowledge"]
 tags: ["Stock Android Distribution","Project Treble"]
 author: Rushi M Thakker
