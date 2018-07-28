@@ -54,6 +54,8 @@ GEM
     minitest (5.11.3)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.4-x64-mingw32)
+      mini_portile2 (~> 2.3.0)
     parallel (1.12.1)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -69,6 +71,8 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2018.5)
+      tzinfo (>= 1.0.0)
     yell (2.0.7)
 
 PLATFORMS
@@ -82,7 +86,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.3.3p222
+   ruby 2.4.4p296
 
 BUNDLED WITH
    1.16.3
