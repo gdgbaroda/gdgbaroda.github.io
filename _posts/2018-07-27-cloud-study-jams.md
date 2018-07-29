@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cloud Study Jams"
-date: 2018-07-27
+date: 2018-02-18
 categories: ["Events"]
 tags: ["Google Cloud", "GCP"]
 author: Darshil Bhatt
@@ -18,7 +18,7 @@ GCP stands for Google Cloud Platform, offered by Google, is a suite of cloud com
 Google differs from other cloud providers in a variety of ways. Below are some highlights.
 
 #### Google-grade security
-The Google security model is an end-to-end process, built on over 15 years of experience focused on keeping customers safe on Google applications like Gmail and Google Apps. With Google Cloud Platform your applications and data take advantage of the same security model.
+The Google security model is an end-to-end process, built on over 16 years of experience focused on keeping customers safe on Google applications like Gmail and Google Apps. With Google Cloud Platform your applications and data take advantage of the same security model.
 
 #### Billing by the second
 Compute Engine instances are charged in one-second increments with a one-minute minimum, so you don't pay for compute minutes that you don't use. Learn more about billing.
