@@ -26,6 +26,13 @@ meetup_url: "https://www.meetup.com/gdgbaroda/"
 
 join_url: "http://bit.ly/join_gdgbaroda"
 
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      image: gdg_baroda_cover.jpg
+
 # Build settings
 markdown: kramdown
 future: true
