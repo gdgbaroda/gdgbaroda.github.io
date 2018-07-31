@@ -23,7 +23,6 @@ github_username:  gdgbaroda
 facebook_url:  "https://facebook.com/GDGBaroda"
 youtube_url: "https://www.youtube.com/channel/UCdAjNjPWNIXNaxu4mGJc3uw"
 meetup_url: "https://www.meetup.com/gdgbaroda/"
-
 join_url: "http://bit.ly/join_gdgbaroda"
 
 defaults:
@@ -31,12 +30,12 @@ defaults:
     scope:
       path: ""
     values:
-      image: gdg_baroda_cover.jpg
+      image: cover-image-team.jpg
 
 # Build settings
 markdown: kramdown
 future: true
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
 sass:
   sass_dir: _scss
 gems:

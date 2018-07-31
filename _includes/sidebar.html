@@ -2,7 +2,7 @@
   <div class="panel-heading">Latest Posts</div>
   <div class="panel-body" style="padding: 0px;">
     <ul class="nav nav-pills nav-stacked">
-      {% for post in site.posts limit:10 %}
+      {% for post in site.posts limit:5 %}
       <li>
         <a href="{{ post.url }}">
           {{ post.title }} <br />
@@ -11,6 +11,9 @@
       </li>
       {% endfor %}
     </ul>
+  </div>
+  <div class="panel-footer">
+    <a href="/all-posts">All Posts →</a>
   </div>
 </div>
 <div class="panel panel-primary">

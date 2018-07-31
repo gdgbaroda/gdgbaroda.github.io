@@ -55,7 +55,7 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #090909;
+  color: $black;
 }
 
 .social-icons {
@@ -64,7 +64,7 @@ p {
     display: table-cell;
     vertical-align: middle;
     padding-right: 32px;
-    color: #090909;
+    color: $black;
     letter-spacing: 0px;
     font-weight: 400;
   }
@@ -84,7 +84,7 @@ p {
 .social-icons {
   a {
     i:hover {
-      color: #090909;
+      color: $black;
     }
   }
 }
