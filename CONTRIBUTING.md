@@ -319,20 +319,8 @@ It is _MUST_ to use either JPG or PNG images, and the filesize must be less than
 
 Directly linking to external images is also _NOT_ allowed.
 
-## Writing Pull Requests
+### Writing Pull Requests
 
-When you create a new Pull Request, your PR description must follow this format (copy paste in GitHub PR creation page):
+When you create a new Pull Request, your description must follow this template:
 
-```
-What does this PR add / remove or fix?
-
-Your answer here
-
-Does this PR match the guidelines documented in the Contributing Guide?
-
-Yes/No
-
-```
-
-
-
+[Pull Request Template](https://github.com/SnehPandya18/gdgbaroda.github.io/blob/master/PULL_REQUEST_TEMPLATE.md)
