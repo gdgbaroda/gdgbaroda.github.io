@@ -245,6 +245,12 @@ Here, `add-post-on-devfest` is the name of the branch you created in the previou
 
 Your changes are now pushed to GitHub and you can see it by going to the repository page!
 
+### Create a Pull Request
+
+You can read the following guide for creating a Pull Request:
+
+https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+
 ### Modifying a Pull Request
 
 Once you have submitted a pull request, you can update it by commiting and pushing new changes to the _same_ branch from which you have generated the PR.
@@ -312,3 +318,9 @@ As you can see, the assets are put in a directory with the post name, and that d
 It is _MUST_ to use either JPG or PNG images, and the filesize must be less than 250 KB in all cases. 
 
 Directly linking to external images is also _NOT_ allowed.
+
+### Writing Pull Requests
+
+When you create a new Pull Request, your description must follow this template:
+
+[Pull Request Template](https://github.com/SnehPandya18/gdgbaroda.github.io/blob/master/PULL_REQUEST_TEMPLATE.md)
