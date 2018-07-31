@@ -6,6 +6,7 @@ categories: ["Events"]
 tags: ["Google IO", "IO 2018"]
 author: Darshil Bhatt
 assets: "/assets/2018-07/post-io-meetup"
+image: '/assets/2018-07/post-io-meetup/post_io.jpg'
 ---
 
 After enjoying awesome event of Google IO Extended, co-organizers of [GDG Baroda](https://gdgbaroda.com/) who actually attended [Google IO](https://events.google.com/io/) at Shoreline, planned another meetup named Post IO meetup, just to share their great experience of Google IO conference. Just like every time, we're excited when we got confirmation from GDG Baroda for this meetup. Attendees were curious to know the experience of GDG Baroda co-organizers at Google IO, because to attend Google IO is like a dream for every developer and Google enthusiast.

@@ -6,7 +6,7 @@ categories: ["Events"]
 tags: ["Google Cloud", "GCP"]
 author: Darshil Bhatt
 assets: "/assets/2018-07/cloud-study-jams"
-
+image: '/assets/2018-07/cloud-study-jams/enjoyed_event.jpg'
 ---
 
 Looking at enormous application of cloud based service, in Feb 2017 [GDG Baroda](https://gdgbaroda.com/) organized meetup on [Google Cloud Platform](https://cloud.google.com/)(GCP) named Cloud Study Jams, lead by co-organizers. Just like everytime, this time also attendees were so excited when they got confirmation about this meetup as they were going to explore & learn something really new stuff. Meetup began with introduction of GCP.

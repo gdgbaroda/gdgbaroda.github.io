@@ -6,7 +6,7 @@ categories: ["Events"]
 tags: ["Unit Testing", "WTM Baroda"]
 author: Darshil Bhatt
 assets: "/assets/2018-07/unit-testing"
-
+image: '/assets/2018-07/unit-testing/hands_on.jpg'
 ---
 
 Enthusiasts always want to explore & learn new stuffs. They don't want themselves to get stuck on just one technology. So, in March 2017, community organized a meetup on [Unit Testing](http://softwaretestingfundamentals.com/unit-testing/), which was of course a new stuff for attendees & they were excited to explore it, just like everytime. This meetup was mainly oragnized by [WTM Baroda](https://twitter.com/WTMBaroda) which is a part of [GDG Baroda](https://gdgbaroda.com/). In this meetup, attendees were going to learn something interesting.
