@@ -5,6 +5,7 @@ categories: ["Technical Knowledge"]
 tags: ["Fake News"]
 author: Rushi M Thakker
 assets: "/assets/2018-07/fake-news-article"
+image: '/assets/2018-07/fake-news-article/whatsapp_ad.jpg'
 ---
 
 ## GREAT NEWS!! OR FAKE NEWS??!! ![Think](/assets/2018-07/fake-news-article/think_new.jpg)

@@ -6,6 +6,7 @@ categories: ["Events"]
 tags: ["Machine Learning", "TensorFlow"]
 author: Pratik Parmar
 assets: "/assets/2018-07/tensorflow-dev-summit-extended"
+image: '/assets/2018-07/tensorflow-dev-summit-extended/keynote.jpeg'
 ---
 
 When we all at [ GDG Baroda](https://twitter.com/gdgbaroda "GDG Baroda Twitter account" ) got updates for the first time that another [Tensorflow Dev Summit](https://www.tensorflow.org/dev-summit/) is happening this February at Mountain View, we were damn excited! We were hoping high from Tensorflow team and expecting even more exciting announcements than the last summit. The Tensorflow Dev Summit brings together over 500 TensorFlow users in-person and thousands tuning into the live stream at TensorFlow events around the world, and GDG Baroda was one of them. During this event, Google makes new product announcements along with technical talks from the TensorFlow team and guest speakers.
@@ -14,7 +15,7 @@ When we all at [ GDG Baroda](https://twitter.com/gdgbaroda "GDG Baroda Twitter a
 
 But there was a twist, instead of live streaming, we wanted to something different to make Machine Learning easy for first-timers. Fortunately, we’ve many Machine Learning engineers in our own community, who were willing to share their knowledge and experience. Their name and topic of the session are given below:
 
-- Keynote by [Sneh Pandya]( https://twitter.com/SnehPandya18 ) 
+- Keynote by [Sneh Pandya]( https://twitter.com/SnehPandya18 )
 - How to get started with Machine Learning by [Krupa Galiya]( https://twitter.com/Krupagaliya )
 - Create sequential models using Keras by [Dhrumil Barot]( https://twitter.com/barotdhrumil21 )
 - Twitter Sentiment Analysis with TextBlob by [Daniel Phiri]( https://twitter.com/malgamves )
@@ -28,13 +29,13 @@ Next session was “How to get started with Machine Learning” by Krupa Galiya;
 
 ![ Krupa sharing her experience with ML ]({{page.assets}}/get start.jpeg){:class="img-responsive" :height="400px" width="500px" : .center-image}        
 
-The upcoming session was by our own rockstar, Daniel Phiri on Twitter Sentiment Analysis with TextBlob. He showed us how to perform sentiment analysis on tweets in real time. Attendees were really amazed by trying sentiment analysis on tweets for the first time, on their own. Yes, you heard it right, beginners got their hands dirty with machine learning and that too without any high-end computer. Google released an online tool called [Colaboratory](https://colab.research.google.com) to help disseminate machine learning education and research. It's a Jupyter notebook environment that requires no setup to use and runs entirely in the cloud. 
+The upcoming session was by our own rockstar, Daniel Phiri on Twitter Sentiment Analysis with TextBlob. He showed us how to perform sentiment analysis on tweets in real time. Attendees were really amazed by trying sentiment analysis on tweets for the first time, on their own. Yes, you heard it right, beginners got their hands dirty with machine learning and that too without any high-end computer. Google released an online tool called [Colaboratory](https://colab.research.google.com) to help disseminate machine learning education and research. It's a Jupyter notebook environment that requires no setup to use and runs entirely in the cloud.
 
 Next session was on, well it was not a session actually. We people at GDG Baroda are fun loving guys and playing Kahoot is like an addiction. So, how can we miss it this time? Our rockstar GDG lead Rahul Banker is our favorite quiz master and he really knows his job. Don’t believe me? Then join us for the  upcoming event and see yourself and it's good chance to win goodies as well. Here’s a glimpse of quiz:
 
 ![ It's time for Kahoot ]({{page.assets}}/kahoot.jpeg){:class="img-responsive" :height="400px" width="500px" : .center-image}
 
-The last session was on “Create sequential models using Keras” by  Dhrumil Barot. He showed a demo on emotion detection using machine learning and all attendees got a chance to perform it on their machine as well. 
+The last session was on “Create sequential models using Keras” by  Dhrumil Barot. He showed a demo on emotion detection using machine learning and all attendees got a chance to perform it on their machine as well.
 
 Due to some constraints, Dhruv was not able to deliver the talk on "Pytorch vs Tensorflow". Though you can find his presentation from the link given at the end of this article.
 
@@ -42,8 +43,8 @@ Due to some constraints, Dhruv was not able to deliver the talk on "Pytorch vs T
 
 You can find all the resources related to this event from here: [Tensorflow Dev Summit Resources](https://github.com/gdgbaroda/events/tree/master/Tensorflow%20Dev%20Summit%20Extended)
 
-See you in the upcoming event at GDG Baroda. 
+See you in the upcoming event at GDG Baroda.
 
- 
+
 
 Over and out...
