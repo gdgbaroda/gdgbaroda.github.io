@@ -7,22 +7,19 @@ tags: ["Stock Android Distribution","Project Treble"]
 author: Rushi M Thakker
 assets: "/assets/2018-07/stock-android-project-treble"
 ---
+## STOCK ANDROID DISTRIBUTION AND PROJECT TREBLE
 
-## <center>  STOCK ANDROID DISTRIBUTION AND PROJECT TREBLE </center>
 
 We all have Android phones in our hand and still we all have different features based on OS because of the customizations [ *OEMs(Original Equipment Manufacturers)* ](https://en.wikipedia.org/wiki/Original_equipment_manufacturer)  make to devices before launching them. For those new to the term, in simple language, OEMs are companies that manufacture Android powered devices, for eg.Samsung, OnePlus, Motorola etc. All these companies modify the actual source code of Android framework according to their need.
 But in some cases, companies tie up with Google and Silicon manufacturers to run pure Android framework as released by Google without any modification.
 
----
 #### WHAT IS STOCK ANDROID? ####
 
 The pure Android Framework or the pure Android OS which we talked about is nothing but **"Stock Android"**. Many of you would be now thinking as to what happens to the Android which we receive in our phones? Is it not the same as released by Google? Also why does it take so much time for their devices to get the latest Android OS update? All your questions will be answered. Keep reading.
 
 Now to understand when a new Android release is determined, we need to understand Stock Android OS distribution cycle.
 
----
 #### STOCK ANDROID DISTRIBUTION ####
-
 
 ![Stock Android Distribution Cycle](/assets/2018-07/stock-android-project-treble/stock_android_distribution_cycle.png){:class="img-responsive" : .center-image }
 
@@ -48,9 +45,7 @@ This is just too much work in too less time for OEMs to make new release availab
 
 **P.S.:** There is one final step too. In general scenario, after the official launch of Android OS which is ~2-3 weeks after RC has been finalized, Google releases the full source code of new Android OS through [ **Android Open Source Project(AOSP)** ](https://source.android.com/). That is the reason Android is an *"Open Source Platform"*.
 
----
 #### PROJECT TREBLE ####
-
 
 ![Project Treble](/assets/2018-07/stock-android-project-treble/project_treble.jpg){:class="img-responsive" : .center-image }
 
@@ -77,7 +72,6 @@ After the introduction of project Treble scenario has changed to this:
 
 ![Distribution After Treble](/assets/2018-07/stock-android-project-treble/with_treble.png){:class="img-responsive" : .center-image }
 
----
 #### BENEFITS OF PROJECT TREBLE ####
 
 **1. Faster Adoption of new Android OS on devices**:
@@ -94,7 +88,6 @@ After Treble:
 **3. Easier Custom ROM Development**:
 Prior to project Treble, if I wanted to use a stock Android(AOSP ROM) on my Samsung device having TouchWiz OS, I would have to mess around a lot of kernel code and get involved in a lot of [HAL(Hardware Abstraction Layer)](https://source.android.com/devices/architecture/hal) hacking. But according to new *VTS standards* it is mandatory that every Treble enable device must be able to build a raw, generic AOSP build. Due to this, it becomes very easy to port latest AOSP ROMs on non-Google Treble enabled devices.
 
----
 #### SOME NOTABLE LINKS TO REFER ####
 
 **1. Treble Official Blog** : [https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html)
@@ -104,8 +97,8 @@ Prior to project Treble, if I wanted to use a stock Android(AOSP ROM) on my Sams
 **3. How Project Treble Revolutionizes Custom ROM Development** :
 [https://www.xda-developers.com/how-project-treble-revolutionizes-custom-roms-android-oreo/](https://www.xda-developers.com/how-project-treble-revolutionizes-custom-roms-android-oreo/)
 
----
 #### REFERENCES ####
+
 **1.** : [https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html)
 
 **2.** : [https://android-developers.googleblog.com/2018/05/faster-adoption-with-project-treble.html](https://android-developers.googleblog.com/2018/05/faster-adoption-with-project-treble.html)
