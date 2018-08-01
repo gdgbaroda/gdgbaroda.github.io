@@ -5,7 +5,8 @@ date: 2018-02-18
 categories: ["Events"]
 tags: ["Google Cloud", "GCP"]
 author: Darshil Bhatt
-assets: "/assets/2018-07/cloud-study-jams"
+image: '/assets/2018-02/cloud-study-jams/enjoyed_event.jpg'
+assets: "/assets/2018-02/cloud-study-jams"
 
 ---
 

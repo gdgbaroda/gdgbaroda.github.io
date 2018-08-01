@@ -5,8 +5,8 @@ date: 2018-07-10 5:00:00 +0530
 categories: ["Events"]
 tags: ["Machine Learning", "TensorFlow"]
 author: Pratik Parmar
-assets: "/assets/2018-07/tensorflow-dev-summit-extended"
-image: '/assets/2018-07/tensorflow-dev-summit-extended/keynote.jpeg'
+assets: "/assets/2018-04/tensorflow-dev-summit-extended"
+image: '/assets/2018-04/tensorflow-dev-summit-extended/keynote.jpeg'
 ---
 
 When we all at [ GDG Baroda](https://twitter.com/gdgbaroda "GDG Baroda Twitter account" ) got updates for the first time that another [Tensorflow Dev Summit](https://www.tensorflow.org/dev-summit/) is happening this February at Mountain View, we were damn excited! We were hoping high from Tensorflow team and expecting even more exciting announcements than the last summit. The Tensorflow Dev Summit brings together over 500 TensorFlow users in-person and thousands tuning into the live stream at TensorFlow events around the world, and GDG Baroda was one of them. During this event, Google makes new product announcements along with technical talks from the TensorFlow team and guest speakers.

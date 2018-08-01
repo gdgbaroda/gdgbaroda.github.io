@@ -5,8 +5,8 @@ date: 2018-07-18
 categories: ["Events"]
 tags: ["Google IO", "IO 2018 Extended"]
 author: Darshil Bhatt
-assets: "/assets/2018-07/io-extended"
-image: '/assets/2018-07/io-extended/end_of_event.jpg'
+assets: "/assets/2018-05/io-extended"
+image: '/assets/2018-05/io-extended/end_of_event.jpg'
 
 ---
 We were so much excited when we got confirmation for Google IO 2018 Extended hosted by [GDG Baroda](https://gdgbaroda.com/). Thousands of people around the globe were watching the live streaming of amazing Google IO 2018 which was held on 8th May at Shoreline Amphitheatre, Mountain View, California. So, in the same way we also got opportunity to enjoy live streaming by GDG Baroda.

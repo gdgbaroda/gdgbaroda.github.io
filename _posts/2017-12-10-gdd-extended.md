@@ -5,8 +5,8 @@ date: 2018-07-26
 categories: ["Events"]
 tags: ["Google Developer Days", "GDD India 2017"]
 author: Darshil Bhatt
-assets: "/assets/2018-07/gdd-extended"
-image: '/assets/2018-07/gdd-extended/gdgbaroda_at_gdd.jpg'
+assets: "/assets/2017-12/gdd-extended"
+image: '/assets/2017-12/gdd-extended/gdgbaroda_at_gdd.jpg'
 ---
 In December 2017, [Google](https://en.wikipedia.org/wiki/Google) organized grand event in Bengaluru, named [Google Developer Days](https://developers.google.com/events/gdd-india/)(GDD India). [GDG Baroda](https://gdgbaroda.com/) team attended the event, which turned into great experience for them. So the community organizers finalized the meetup for GDD India just to share their experience of the event with community members. Just like everytime, attendees were excited when they got confirmation from GDG Baroda for GDD India Extended.
 
