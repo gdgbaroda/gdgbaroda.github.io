@@ -23,7 +23,7 @@ This project uses [Jekyll](https://jekyllrb.com/) which is a very popular static
 #### Setup and Installation
 The most basic requirements to start working with us is to have a GitHub account and having Git installed in your local machine. You can learn how to install Git using the following links:
 
--  [Download and install the latest version of Git](https://git-scm.com/downloads)
+- [Download and install the latest version of Git](https://git-scm.com/downloads)
 - [Set your username in Git](https://help.github.com/articles/setting-your-username-in-git)
 - [Set your commit email address in Git](https://help.github.com/articles/setting-your-commit-email-address-in-git)
 
@@ -323,4 +323,4 @@ Directly linking to external images is also _NOT_ allowed.
 
 When you create a new Pull Request, your description must follow this template:
 
-[Pull Request Template](https://github.com/SnehPandya18/gdgbaroda.github.io/blob/master/PULL_REQUEST_TEMPLATE.md)
+[Pull Request Template](PULL_REQUEST_TEMPLATE.md)
