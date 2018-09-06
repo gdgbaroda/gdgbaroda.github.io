@@ -5,12 +5,8 @@ date: 2018-08-05
 categories: ["Events"]
 tags: ["GDG Baroda","Devfest 2018"]
 author: Tanvi Shah
-assets:
-"/assets/2018-08/google-cloud-extended"
-image:
-'/assets/2018-08/google-cloud-extended/highres_473495083.jpeg'
-image:
-'/assets/2018-08/google-cloud-extended/highres_473495071.jpeg'
+assets: "/assets/2018-08/google-cloud-extended"
+image: '/assets/2018-08/google-cloud-extended/highres_473495083.jpeg'
 ---
 
 Google Cloud platform, offered by Google,is suite of cloud computing services that is used for powerful data and analytics. The best about it is 'serverless-just code' and 'Future-Proof infrastructure'.
