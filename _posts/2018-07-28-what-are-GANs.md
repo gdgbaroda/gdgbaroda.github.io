@@ -2,8 +2,8 @@
 layout: post
 title: "What are GANs"
 date: 2017-07-28 18:30:00 +0530
-categories: ["general","deep learning]
-tags: ["general", "new","GANs]
+categories: ["general","deep learning"]
+tags: ["general", "new","GANs"]
 author: Dhruv Apte
 ---
 
