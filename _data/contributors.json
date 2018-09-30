@@ -1,0 +1,30 @@
+{
+    "leadership_team": [
+        {
+            "name": "Rahul Banker",
+            "imageSrc": "/assets/2018-09/contributors/leaders/rahul_banker.jpeg",
+            "position": "Organizer"
+        },
+        {
+            "name": "Manan Jadhav",
+            "imageSrc":"/assets/2018-09/contributors/leaders/manan_jadhav.jpeg",
+            "position": "Co-Organizer" 
+        },
+        {
+            "name": "Sneh Pandya",
+            "imageSrc": "/assets/2018-09/contributors/leaders/sneh_pandya.jpeg",
+            "position": "Co-Organizer"
+        },
+        {
+            "name": "Mamta Gelanee",
+            "imageSrc": "/assets/2018-09/contributors/leaders/mamta_g.jpeg",
+            "position": "Co-Organizer"
+        }
+    ],
+    "active_members": [
+        {
+            "name": "Pratik Parmar",
+            "imageSrc": "/assets/2018-09/contributors/members/pratik_parmar.jpeg"
+        }
+    ]
+}
