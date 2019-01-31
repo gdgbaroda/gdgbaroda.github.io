@@ -71,7 +71,7 @@ dir
 Now, we will add the original repository as a remote so that updates can be received:
 
 ```
-git remote add upstream https://github.com/gdgbaroda.github.io
+git remote add upstream https://github.com/gdgbaroda/gdgbaroda.github.io
 ```
 
 
