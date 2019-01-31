@@ -238,7 +238,7 @@ You can learn more about the `git commit` command by reading [this article](http
 If the commit is successful, you can now push your branch and its changes to your GitHub repository:
 
 ```
-git push -u add-post-on-devfest
+git push -u origin add-post-on-devfest
 ```
 
 Here, `add-post-on-devfest` is the name of the branch you created in the previous steps, and you must use the same name here. Git might ask you for your credentials for your GitHub account, so that it can push changes.
