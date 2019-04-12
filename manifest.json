@@ -1,11 +1,4 @@
 {
-    "short_name": "GDG Baroda",
-    "name": "Google Developers Group Baroda",
-    "icons": [
-      {
-        "src": "/favicon.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      }
-    ]
-  }
+  "gcm_sender_id": "482941778795",
+  "gcm_sender_id_comment": "Do not change the GCM Sender ID"
+}
