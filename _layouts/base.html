@@ -12,6 +12,16 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css"/>
+  <link rel="manifest" href="/manifest.json" />
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "09eab5c2-f7e6-485f-a14d-90cfd137a2ca",
+      });
+    });
+  </script>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
