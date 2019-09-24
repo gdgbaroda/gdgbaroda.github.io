@@ -14,16 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: GDG Baroda 
-email: manan@gdgbaroda.com
+email: gdgbaroda@gmail.com
 description: An open-for-all and diverse developer community
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gdgbaroda.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@gdgbaroda"
 github_username:  gdgbaroda
 facebook_url:  "https://facebook.com/GDGBaroda"
-youtube_url: "https://www.youtube.com/channel/UCdAjNjPWNIXNaxu4mGJc3uw"
+youtube_url: "https://www.youtube.com/c/gdgbaroda"
 meetup_url: "https://www.meetup.com/gdgbaroda/"
-join_url: "http://bit.ly/gdgbaroda_slack"
+join_url: "https://bit.ly/gdgbaroda_slack"
 
 defaults:
   - 
