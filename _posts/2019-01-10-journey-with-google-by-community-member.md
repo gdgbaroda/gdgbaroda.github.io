@@ -30,6 +30,8 @@ Working with dreams, we always have different hurdles. There was a time when I a
 
 Success may not come in a day or two, instead it requires a lot of patience. But trust me, our each and every effort is counted and summed up to be back to us one day! Its still not too late for you to learn.
 
+Work hard and smart to have your own identities!
+
 
 
 
