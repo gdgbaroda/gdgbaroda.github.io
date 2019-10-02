@@ -1,0 +1,70 @@
+{
+    "leadership_team": [
+        {
+            "name": "Rahul Banker",
+            "imageSrc": "/assets/contributors/leaders/rahul_banker.jpeg",
+            "position": "Organizer"
+        },
+        {
+            "name": "Manan Jadhav",
+            "imageSrc":"/assets/contributors/leaders/manan_jadhav.jpeg",
+            "position": "Co-Organizer" 
+        },
+        {
+            "name": "Sneh Pandya",
+            "imageSrc": "/assets/contributors/leaders/sneh_pandya.jpeg",
+            "position": "Co-Organizer"
+        },
+        {
+            "name": "Mamta Gelanee",
+            "imageSrc": "/assets/contributors/leaders/mamta_g.jpeg",
+            "position": "Co-Organizer"
+        }
+    ],
+    "active_members": [        
+        {
+            "name": "Aditya Patel",
+            "imageSrc": "/assets/contributors/members/aditya_patel.jpeg"
+        },
+        {
+            "name": "Chintan Shah",
+            "imageSrc": "/assets/contributors/members/chintan_shah.jpeg"
+        },
+        {
+            "name": "Darshil Bhatt",
+            "imageSrc": "/assets/contributors/members/darshil_bhatt.jpeg"
+        },
+        {
+            "name": "Dhruv Apte",
+            "imageSrc": "/assets/contributors/members/dhruv_apte.jpeg"
+        },
+        {
+            "name": "Dron Trivedi",
+            "imageSrc": "/assets/contributors/members/dron_trivedi.jpeg"
+        },
+        {
+            "name": "Hardik Mistry",
+            "imageSrc": "/assets/contributors/members/hardik_mistry.jpeg"
+        },
+        {
+            "name": "Hardip Patel",
+            "imageSrc": "/assets/contributors/members/hardip_patel.jpeg"
+        },
+        {
+            "name": "Kushal Dave",
+            "imageSrc": "/assets/contributors/members/kushal_dave.jpeg"
+        },
+        {
+            "name": "Prachi Durge",
+            "imageSrc": "/assets/contributors/members/prachi_durge.jpeg"
+        },
+        {
+            "name": "Pratik Parmar",
+            "imageSrc": "/assets/contributors/members/pratik_parmar.jpeg"
+        },
+        {
+            "name": "Tanvi Shah",
+            "imageSrc": "/assets/contributors/members/tanvi_shah.jpeg"
+        }
+    ]
+}

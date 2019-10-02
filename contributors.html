@@ -1,0 +1,58 @@
+---
+layout: page
+---
+<div class="row">
+    <div class="col-md-12">
+        <h4>The Leadership Team</h4>
+        <hr>
+        <div class="row text-center">
+            {% for contributor in site.data.contributors.leadership_team %}
+            <div class="col-md-3 col-xs-6 col-sm-4">
+                <img src={{contributor.imageSrc}} class=" center-block img-responsive img-circle" alt="{{contributor.name}}" height="100" width="100">
+                <h5 class="margin-bottom-0">{{contributor.name}}</h5>
+                <p class="text-uppercase">{{contributor.position}}</p>
+            </div>
+            <div class="visible-xs">
+                {% assign offset = forloop.index | modulo: 2 %}
+                {% if offset == 0 %}
+                        <div class="clearfix"></div>
+                {% endif %}
+            </div>
+            <div class="visible-sm">
+                {% assign offset = forloop.index | modulo: 4 %}
+                {% if offset == 0 %}
+                        <div class="clearfix"></div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="row">
+        <div class="col-md-12">
+            <h4>Proud Active Members</h4>
+            <hr>
+            <div class="row text-center">
+                {% for member in site.data.contributors.active_members %}
+                <div class="col-md-3 col-xs-6 col-sm-6">
+                    <img src={{member.imageSrc}} class=" center-block img-responsive img-circle" alt="{{member.name}}" height="100" width="100">
+                    <h5 class="margin-bottom-0">{{member.name}}</h5>
+                    <p class="text-uppercase">Active Member</p>
+                </div>
+                <div class="visible-xs">
+                        {% assign offset = forloop.index | modulo: 2 %}
+                        {% if offset == 0 %}
+                                <div class="clearfix"></div>
+                        {% endif %}
+                    </div>
+                    <div class="visible-sm">
+                        {% assign offset = forloop.index | modulo: 4 %}
+                        {% if offset == 0 %}
+                                <div class="clearfix"></div>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
