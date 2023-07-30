@@ -117,7 +117,7 @@ Satirical sites are popular online and sometimes it is not always clear whether 
 
 **Snopes**: [https://www.snopes.com/](https://www.snopes.com/)
 
-**PolitiFact**: [http://www.politifact.com/](http://www.politifact.com/)
+**PolitiFact**: [https://www.politifact.com/](https://www.politifact.com/)
 
 **Fact Check**: [https://www.factcheck.org/](https://www.factcheck.org/)
 
@@ -133,7 +133,7 @@ Satirical sites are popular online and sometimes it is not always clear whether 
 
 **3.** [https://www.theverge.com/2018/3/20/17142788/google-news-initiative-fake-news-journalist-subscriptions](https://www.theverge.com/2018/3/20/17142788/google-news-initiative-fake-news-journalist-subscriptions)
 
-**4.** [http://theconversation.com/trump-may-owe-his-2016-victory-to-fake-news-new-study-suggests-91538](http://theconversation.com/trump-may-owe-his-2016-victory-to-fake-news-new-study-suggests-91538)
+**4.** [https://theconversation.com/trump-may-owe-his-2016-victory-to-fake-news-new-study-suggests-91538](https://theconversation.com/trump-may-owe-his-2016-victory-to-fake-news-new-study-suggests-91538)
 
 **5.** [https://www.webwise.ie/teachers/what-is-fake-news/](https://www.webwise.ie/teachers/what-is-fake-news/)
 
@@ -141,4 +141,4 @@ Satirical sites are popular online and sometimes it is not always clear whether 
 
 **7.** [https://money.cnn.com/2018/07/10/technology/whatsapp-india-newspaper-ads-fake-news/index.html](https://money.cnn.com/2018/07/10/technology/whatsapp-india-newspaper-ads-fake-news/index.html)
 
-**8.** [http://gujaratsamacharepaper.com/nd/gsnews2.php?pageid=GUJARAT_BAR_20180711_14](http://gujaratsamacharepaper.com/nd/gsnews2.php?pageid=GUJARAT_BAR_20180711_14)
+**8.** [https://gujaratsamacharepaper.com/nd/gsnews2.php?pageid=GUJARAT_BAR_20180711_14](https://gujaratsamacharepaper.com/nd/gsnews2.php?pageid=GUJARAT_BAR_20180711_14)

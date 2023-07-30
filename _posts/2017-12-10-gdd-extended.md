@@ -12,7 +12,7 @@ In December 2017, [Google](https://en.wikipedia.org/wiki/Google) organized grand
 
 ![GDG Baroda Team at GDD]({{page.assets}}/gdgbaroda_at_gdd.jpg){:class="img-responsive" : .center-image :height="400px" width="500px"}
 
-Google Developer Days(GDD India) was held at Bengaluru form December 1–2, 2017. It is a global event organized by Google to showcase their latest products and platforms for the users and developers. It was the first time Google organised such a big event in India. And you know what, it was totally awesome! It was organized at [International Exhibition Centre](http://www.biec.in/) in Bengaluru.
+Google Developer Days(GDD India) was held at Bengaluru form December 1–2, 2017. It is a global event organized by Google to showcase their latest products and platforms for the users and developers. It was the first time Google organised such a big event in India. And you know what, it was totally awesome! It was organized at [International Exhibition Centre](https://www.biec.in/) in Bengaluru.
 
 On first day, when team reached the venue, they were really shocked looking the venue, crowd & arrangements, because they had never imagined that it is going to be such a big event. In morning, they done with their breakfast & registration. After that, it was time for interesting keynote by googlers. Keynote began in the rocking way.
 
