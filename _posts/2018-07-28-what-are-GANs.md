@@ -58,5 +58,5 @@ takes an input of vector of random numbers(z) and transforms it into a data it i
 as input and determines the probability whether it is real or not. Both functions are alternatively optimised on batches of real and 
 generated data until the GAN will slowly converge to producing realistic data; almost as realistic as modelling it.
 
-GANs are getting hot for image generation using convolutional neural networks. A [DCGAN](http://arxiv.org/abs/1511.06434) or a deep convolutional
+GANs are getting hot for image generation using convolutional neural networks. A [DCGAN](https://arxiv.org/abs/1511.06434) or a deep convolutional
 generative adversarial network is one great GAN used for image generation. You can read the paper in the link to know more about them. 

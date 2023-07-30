@@ -43,6 +43,13 @@ gems:
   - jekyll-seo-tag
 timezone: 'Asia/Kolkata'
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - vendor
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
