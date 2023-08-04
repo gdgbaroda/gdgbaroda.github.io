@@ -12,9 +12,6 @@ If your changes include any visual modifications, consider adding screenshots to
 
 ## Checklist
 - [ ] Code follows the project's style guidelines.
-- [ ] Tests have been added and passed (if applicable).
-- [ ] Documentation has been updated (if applicable).
-- [ ] All new and existing tests passed.
 - [ ] The code has been reviewed for potential security vulnerabilities.
 
 ## Additional Notes (if any)
