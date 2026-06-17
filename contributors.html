@@ -1,58 +1,44 @@
 ---
-layout: page
+layout: base
+title: Contributors
 ---
-<div class="row">
-    <div class="col-md-12">
-        <h4>Current Team</h4>
-        <hr>
-        <div class="row text-center">
-            {% assign current_sorted = site.data.contributors.current_team | sort_natural: 'name' %}
-            {% for contributor in current_sorted %}
-            <div class="col-md-3 col-xs-6 col-sm-4 contributor-card">
-                <img src="{{contributor.imageSrc}}" class="center-block img-responsive img-circle" alt="{{contributor.name}}" height="100" width="100" loading="lazy">
-                <h5 class="margin-bottom-0">{{contributor.name}}</h5>
-                <p class="text-uppercase">{{contributor.position}}</p>
-            </div>
-            <div class="visible-xs">
-                {% assign offset = forloop.index | modulo: 2 %}
-                {% if offset == 0 %}
-                        <div class="clearfix"></div>
-                {% endif %}
-            </div>
-            <div class="visible-sm">
-                {% assign offset = forloop.index | modulo: 4 %}
-                {% if offset == 0 %}
-                        <div class="clearfix"></div>
-                {% endif %}
-            </div>
-            {% endfor %}
-        </div>
+<section class="contributors-page wrap">
+  <p class="dateline">Vadodara · Gujarat — The People Behind The Dispatch</p>
+  <h1 class="nameplate-sm"><span class="bk" style="color:var(--hairline);font-family:var(--mono)">&lt;</span> Contributors <span class="bk" style="color:var(--hairline);font-family:var(--mono)">/&gt;</span></h1>
+  <div class="rule4" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+</section>
+
+<section class="section wrap" style="padding-top:1.8rem">
+  <p class="eyebrow"><span class="tok">//</span> <span class="num">01</span> — current team</p>
+  <h2 class="section-head"><span class="bk">&lt;</span>organisers<span class="bk">/&gt;</span></h2>
+  <div class="people people--contributors">
+    {% assign current_sorted = site.data.contributors.current_team | sort_natural: 'name' %}
+    {% for contributor in current_sorted %}
+    <figure class="person person--round">
+      <img src="{{ contributor.imageSrc }}" alt="{{ contributor.name }}" width="160" height="160" loading="lazy">
+      <figcaption>
+        <p class="p-name">{{ contributor.name }}</p>
+        {% if contributor.position %}<p class="p-role">{{ contributor.position }}</p>{% endif %}
+      </figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow"><span class="tok">//</span> <span class="num">02</span> — with thanks</p>
+    <h2 class="section-head"><span class="bk">&lt;</span>past contributors<span class="bk">/&gt;</span></h2>
+    <div class="people people--contributors">
+      {% assign members_sorted = site.data.contributors.active_members | sort_natural: 'name' %}
+      {% for member in members_sorted %}
+      <figure class="person person--round">
+        <img src="{{ member.imageSrc }}" alt="{{ member.name }}" width="160" height="160" loading="lazy">
+        <figcaption>
+          <p class="p-name">{{ member.name }}</p>
+        </figcaption>
+      </figure>
+      {% endfor %}
     </div>
-</div>
-<div class="row">
-        <div class="col-md-12">
-            <h4>Past Contributors</h4>
-            <hr>
-            <div class="row text-center">
-                {% assign members_sorted = site.data.contributors.active_members | sort_natural: 'name' %}
-                {% for member in members_sorted %}
-                <div class="col-md-3 col-xs-6 col-sm-6 contributor-card">
-                    <img src={{member.imageSrc}} class=" center-block img-responsive img-circle" alt="{{member.name}}" height="100" width="100">
-                    <h5 class="margin-bottom-0">{{member.name}}</h5>
-                </div>
-                <div class="visible-xs">
-                        {% assign offset = forloop.index | modulo: 2 %}
-                        {% if offset == 0 %}
-                                <div class="clearfix"></div>
-                        {% endif %}
-                    </div>
-                    <div class="visible-sm">
-                        {% assign offset = forloop.index | modulo: 4 %}
-                        {% if offset == 0 %}
-                                <div class="clearfix"></div>
-                        {% endif %}
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
+  </div>
+</section>

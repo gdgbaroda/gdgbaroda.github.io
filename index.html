@@ -1,20 +1,194 @@
 ---
 layout: base
 ---
-<div class="row">
-  <div class="col-md-9">
-    <img src="/cover-image-team.jpg" alt="GDG Baroda Cover" class="img-responsive panel">
-    <div class="panel panel-body">
-      <h3>Welcome to GDG Baroda!</h3>
-      <p>
-        Google Developers Group Baroda is a technology user group that meets to discuss the latest Google
-        Technologies, Tools, SDKs, and APIs. The focus is on learning about the broad spectrum of technologies
-        provided by Google and finding innovative ways to apply them. This includes discussions of
-        the technologies from a variety of perspectives (startups, corporations, and individuals).
+
+{%- assign lead = site.posts | first -%}
+
+<!-- ===================== NAMEPLATE HERO ===================== -->
+<section class="hero wrap" aria-labelledby="site-title">
+  <p class="dateline">Vadodara · Gujarat — An Open-for-all Developer Community · Estd. 2014</p>
+
+  <h1 class="nameplate" id="site-title">GDG&nbsp;Baroda</h1>
+
+  <div class="rule4" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+  <div class="hero-grid">
+    <div class="lead">
+      <span class="kicker">from the masthead</span>
+      {% if lead %}
+      <h2 style="font-size:clamp(2rem,5vw,3.4rem)"><a href="{{ lead.url }}">{{ lead.title }}</a></h2>
+      <p class="standfirst">{{ lead.excerpt | strip_html | truncatewords: 44 }}</p>
+      <p class="lead-meta">By {{ lead.author }} · {{ lead.date | date: "%B %-d, %Y" }} &nbsp;·&nbsp; <a class="ed" href="{{ lead.url }}">Read the dispatch →</a></p>
+      {% else %}
+      <h2 style="font-size:clamp(2rem,5vw,3.4rem)">An open-for-all and diverse developer community.</h2>
+      <p class="standfirst">{{ site.description }}. We meet to learn, build, and share — across web, cloud, AI/ML, and everything Google.</p>
+      {% endif %}
+    </div>
+
+    <aside class="rail" aria-label="Get involved">
+      <h2>Stop Press</h2>
+      <ul class="rail-list">
+        <li><strong>Next meetup &amp; RSVP</strong><br>Find upcoming GDG Baroda events on the community platform.</li>
+        <li><strong>Open for everyone</strong><br>Students, professionals, designers, and the merely curious.</li>
+      </ul>
+      <a class="btn btn--primary" href="https://gdg.community.dev/gdg-baroda/" target="_blank" rel="noopener">
+        Explore Events
+        <span class="btn-arrow" aria-hidden="true">→</span>
+      </a>
+      <p style="margin-top:.9rem">
+        <a class="btn" href="{{ site.join_url }}" target="_blank" rel="noopener">Join the Slack</a>
       </p>
+    </aside>
+  </div>
+</section>
+
+<!-- ===================== THE BRIEF ===================== -->
+<section class="brief wrap" aria-label="Our mission">
+  <div class="brief-inner">
+    <p>
+      <span class="bk" aria-hidden="true">&lt;</span>
+      An <mark>open-for-all</mark> and diverse developer community.
+      <span class="bk" aria-hidden="true">&gt;</span>
+    </p>
+  </div>
+</section>
+
+<!-- ===================== WHAT WE DO ===================== -->
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow"><span class="tok">//</span> <span class="num">01</span> — what we do</p>
+    <h2 class="section-head"><span class="bk">&lt;</span>about<span class="bk">/&gt;</span></h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:var(--gutter)">
+      <div>
+        <p style="font-size:1.1rem">Google Developer Groups Baroda is a technology community that meets to explore the latest Google technologies, tools, SDKs, and APIs — and the open web around them.</p>
+      </div>
+      <div>
+        <p>We host talks, hands-on workshops, study jams, and our flagship <strong>DevFest</strong>. Topics span <mark>web</mark>, <mark>cloud</mark>, <mark>AI/ML</mark>, mobile, and more — always welcoming, always technical-but-friendly.</p>
+      </div>
+      <div>
+        <p>Whether you write code, design, organise, or simply want to learn — there is a place for you on the masthead.</p>
+      </div>
     </div>
   </div>
-  <div class="col-md-3">
-    {% include sidebar.html %}
+</section>
+
+<!-- ===================== LATEST DISPATCHES ===================== -->
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow"><span class="tok">//</span> <span class="num">02</span> — from the archive</p>
+    <div class="section-top">
+      <h2 class="section-head"><span class="bk">&lt;</span>latest dispatches<span class="bk">/&gt;</span></h2>
+      <a class="ed" href="/all-posts/" style="font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase">All Posts →</a>
+    </div>
+
+    <ul class="dispatch-list">
+      {% for post in site.posts limit:6 %}
+      <li class="dispatch reveal" style="animation-delay:{{ forloop.index0 | times: 60 | append: 'ms' }}">
+        <span class="d-folio folio">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+        <div class="d-body">
+          <h3><a class="ed" href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p class="d-byline">By {{ post.author }} · {{ post.date | date: "%d %b %Y" }}</p>
+          <p class="d-excerpt">{{ post.excerpt | strip_html | truncatewords: 26 }}</p>
+        </div>
+        <div class="d-meta">
+          {% assign cat = post.categories | first | default: 'community' | downcase %}
+          {% if cat contains 'event' %}{% assign tcls = 'tag--events' %}
+          {% elsif cat contains 'cloud' or cat contains 'web' %}{% assign tcls = 'tag--web' %}
+          {% elsif cat contains 'learn' or cat contains 'deep' or cat contains 'ai' %}{% assign tcls = 'tag--ai' %}
+          {% else %}{% assign tcls = 'tag--community' %}{% endif %}
+          <span class="tag {{ tcls }}">{{ post.categories | first | default: 'Community' }}</span>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-</div>
+</section>
+
+<!-- ===================== BY THE NUMBERS ===================== -->
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow"><span class="tok">//</span> <span class="num">03</span> — by the numbers</p>
+    <h2 class="section-head"><span class="bk">&lt;</span>the community<span class="bk">/&gt;</span></h2>
+    <div class="stats">
+      <div class="stat"><span class="figure">{{ site.posts | size }}</span><span class="label">Dispatches Filed</span></div>
+      <div class="stat"><span class="figure">{{ site.data.contributors.current_team | size }}</span><span class="label">Active Organisers</span></div>
+      <div class="stat"><span class="figure">{{ site.data.contributors.active_members | size | plus: site.data.contributors.current_team.size }}</span><span class="label">Contributors</span></div>
+      <div class="stat"><span class="figure">2014</span><span class="label">Established</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EDITIONS / SERIES ===================== -->
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow"><span class="tok">//</span> <span class="num">04</span> — recurring editions</p>
+    <h2 class="section-head"><span class="bk">&lt;</span>series<span class="bk">/&gt;</span></h2>
+    <div class="editions">
+      <article class="edition">
+        <p class="e-kicker">Flagship</p>
+        <h3>DevFest</h3>
+        <p>Our biggest annual gathering — talks, codelabs, and the wider developer community under one roof.</p>
+        <p class="e-foot">Annual · Vadodara</p>
+      </article>
+      <article class="edition">
+        <p class="e-kicker">Watch Party</p>
+        <h3>I/O Extended</h3>
+        <p>Catching the headlines from Google I/O together, with local takes and hands-on follow-ups.</p>
+        <p class="e-foot">Seasonal</p>
+      </article>
+      <article class="edition">
+        <p class="e-kicker">Hands-on</p>
+        <h3>Cloud Study Jams</h3>
+        <p>Guided, practical sessions to skill up on Google Cloud — from fundamentals to real builds.</p>
+        <p class="e-foot">Cohort-based</p>
+      </article>
+      <article class="edition">
+        <p class="e-kicker">Inclusion</p>
+        <h3>Women Techmakers</h3>
+        <p>Programs and meetups championing visibility and community for women in technology.</p>
+        <p class="e-foot">Ongoing</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FROM THE COMMUNITY ===================== -->
+<section class="section section--paper">
+  <div class="wrap">
+    <p class="eyebrow"><span class="tok">//</span> <span class="num">05</span> — from the community</p>
+    <div class="section-top">
+      <h2 class="section-head"><span class="bk">&lt;</span>contributors<span class="bk">/&gt;</span></h2>
+      <a class="ed" href="/contributors/" style="font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase">Full masthead →</a>
+    </div>
+    <div class="people">
+      {% assign team = site.data.contributors.current_team | sort_natural: 'name' %}
+      {% for person in team %}
+      <figure class="person">
+        <img src="{{ person.imageSrc }}" alt="{{ person.name }}" loading="lazy" width="160" height="160">
+        <figcaption>
+          <p class="p-name">{{ person.name }}</p>
+          {% if person.position %}<p class="p-role">{{ person.position }}</p>{% endif %}
+        </figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===================== JOIN THE MASTHEAD ===================== -->
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow"><span class="tok">//</span> <span class="num">06</span> — get involved</p>
+    <div class="join">
+      <div>
+        <h2><span class="bk" style="color:var(--hairline);font-family:var(--mono)">&lt;</span> Join the masthead <span class="bk" style="color:var(--hairline);font-family:var(--mono)">/&gt;</span></h2>
+        <p>We are open for everyone — groups, professional developers, hackers, experts, and students. Come build, learn, and share with GDG Baroda.</p>
+      </div>
+      <div class="join-actions">
+        <a class="btn btn--primary" href="{{ site.join_url }}" target="_blank" rel="noopener">Join on Slack →</a>
+        <a class="btn" href="{{ site.meetup_url }}" target="_blank" rel="noopener">Meetup</a>
+        <a class="btn" href="{{ site.youtube_url }}" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  </div>
+</section>

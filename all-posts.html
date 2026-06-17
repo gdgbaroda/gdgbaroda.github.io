@@ -1,25 +1,34 @@
 ---
 layout: base
+title: All Posts
 ---
-<div class="row">
-    <div class="col-md-12">
-        <h3>All Posts</h3>
-        <br/>
-        <div class="row">
-            {% for post in site.posts %}
-            <div class="col-md-12">
-                <div class="panel panel-body post-preview">
-                    <a class="title" href="{{ post.url }}"> {{ post.title }} </a>
-                    <br/>
-                    <div class="post-details">By {{post.author}} on {{post.date | date_to_string}}</div>
-                    <div class="post-excerpt">
-                        {{post.excerpt | strip_html | truncatewords: 40}}
-                        <br/>
-                        <a href="{{post.url}}">Read more <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
+<section class="posts-head wrap">
+  <p class="dateline">Vadodara · Gujarat — The Complete Archive</p>
+  <h1 class="nameplate-sm"><span class="bk">&lt;</span> Dispatches <span class="bk">/&gt;</span></h1>
+  <div class="rule4" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+</section>
+
+<section class="section wrap" style="padding-top:1.5rem">
+  <p class="eyebrow"><span class="tok">//</span> <span class="num">{{ site.posts | size }}</span> — filed to date</p>
+  <ul class="dispatch-list">
+    {% for post in site.posts %}
+    <li class="dispatch">
+      <span class="d-folio folio">{{ forloop.index | prepend: '00' | slice: -3, 3 }}</span>
+      <div class="d-body">
+        <h3><a class="ed" href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="d-byline">By {{ post.author }} · {{ post.date | date: "%d %b %Y" }}</p>
+        <p class="d-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+        <p style="margin:.5rem 0 0"><a class="ed btn-arrow" href="{{ post.url }}">Read more <span aria-hidden="true">-&gt;</span></a></p>
+      </div>
+      <div class="d-meta">
+        {% assign cat = post.categories | first | default: 'community' | downcase %}
+        {% if cat contains 'event' %}{% assign tcls = 'tag--events' %}
+        {% elsif cat contains 'cloud' or cat contains 'web' %}{% assign tcls = 'tag--web' %}
+        {% elsif cat contains 'learn' or cat contains 'deep' or cat contains 'ai' %}{% assign tcls = 'tag--ai' %}
+        {% else %}{% assign tcls = 'tag--community' %}{% endif %}
+        <span class="tag {{ tcls }}">{{ post.categories | first | default: 'Community' }}</span>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

@@ -1,17 +1,38 @@
 ---
 layout: base
 ---
+<article class="article">
+  <div class="wrap article-column">
+    <a class="back-link" href="/all-posts/">&lt;/ all dispatches &gt;</a>
+    {% include post_content.html %}
+  </div>
 
-<div class="row">
-  <div class="col-md-9">
-    <div class="panel panel-body">
-
-      {% include post_content.html %}
-
-      <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="4" data-width="100%"></div>
+  <div class="wrap related">
+    <div class="rule4" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <div class="section-top" style="margin-top:1.4rem">
+      <h2 class="section-head"><span class="bk">&lt;</span>more dispatches<span class="bk">/&gt;</span></h2>
+      <a class="ed" href="/all-posts/" style="font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase">All Posts →</a>
     </div>
+    <ul class="dispatch-list">
+      {% for post in site.posts limit:4 %}
+        {% unless post.url == page.url %}
+        <li class="dispatch">
+          <span class="d-folio folio">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          <div class="d-body">
+            <h3><a class="ed" href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="d-byline">{{ post.author }} · {{ post.date | date: "%d %b %Y" }}</p>
+          </div>
+          <div class="d-meta">
+            {% assign cat = post.categories | first | default: 'community' | downcase %}
+            {% if cat contains 'event' %}{% assign tcls = 'tag--events' %}
+            {% elsif cat contains 'cloud' or cat contains 'web' %}{% assign tcls = 'tag--web' %}
+            {% elsif cat contains 'learn' or cat contains 'deep' or cat contains 'ai' %}{% assign tcls = 'tag--ai' %}
+            {% else %}{% assign tcls = 'tag--community' %}{% endif %}
+            <span class="tag {{ tcls }}">{{ post.categories | first | default: 'Community' }}</span>
+          </div>
+        </li>
+        {% endunless %}
+      {% endfor %}
+    </ul>
   </div>
-  <div class="col-md-3">
-    {% include sidebar.html %}
-  </div>
-</div>
+</article>
