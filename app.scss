@@ -771,4 +771,31 @@ a.ed:hover, a.ed:focus-visible { background-size: 100% 2px; }
   .rule4 i { transform: none !important; }
 }
 
+/* ===================== press photo band ===================== */
+.press-band {
+  margin: clamp(1.5rem, 4vw, 3rem) 0 0;
+  border-block: var(--rule) solid var(--ink);
+}
+.press-band img {
+  width: 100%;
+  height: clamp(190px, 36vw, 420px);
+  object-fit: cover;
+  object-position: center 32%;
+  filter: grayscale(1) contrast(1.02);
+  transition: filter .5s var(--ease);
+}
+.press-band:hover img { filter: grayscale(0); }
+.press-band figcaption {
+  font-family: var(--mono);
+  font-size: .72rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--graphite);
+  padding-block: .75rem;
+}
+.press-band figcaption .bk { color: var(--g-blue); margin-right: .35rem; }
+@media (prefers-reduced-motion: reduce) {
+  .press-band img { filter: grayscale(1); }
+}
+
 @import "post";
