@@ -3,12 +3,13 @@ layout: page
 ---
 <div class="row">
     <div class="col-md-12">
-        <h4>The Leadership Team</h4>
+        <h4>Current Team</h4>
         <hr>
         <div class="row text-center">
-            {% for contributor in site.data.contributors.leadership_team %}
+            {% assign current_sorted = site.data.contributors.current_team | sort_natural: 'name' %}
+            {% for contributor in current_sorted %}
             <div class="col-md-3 col-xs-6 col-sm-4">
-                <img src={{contributor.imageSrc}} class=" center-block img-responsive img-circle" alt="{{contributor.name}}" height="100" width="100">
+                <img src="{{contributor.imageSrc}}" class="center-block img-responsive img-circle" alt="{{contributor.name}}" height="100" width="100" loading="lazy">
                 <h5 class="margin-bottom-0">{{contributor.name}}</h5>
                 <p class="text-uppercase">{{contributor.position}}</p>
             </div>
@@ -28,13 +29,13 @@ layout: page
         </div>
     </div>
 </div>
-
 <div class="row">
         <div class="col-md-12">
-            <h4>Proud Active Members</h4>
+            <h4>Past Contributors</h4>
             <hr>
             <div class="row text-center">
-                {% for member in site.data.contributors.active_members %}
+                {% assign members_sorted = site.data.contributors.active_members | sort_natural: 'name' %}
+                {% for member in members_sorted %}
                 <div class="col-md-3 col-xs-6 col-sm-6">
                     <img src={{member.imageSrc}} class=" center-block img-responsive img-circle" alt="{{member.name}}" height="100" width="100">
                     <h5 class="margin-bottom-0">{{member.name}}</h5>

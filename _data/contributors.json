@@ -1,27 +1,57 @@
 {
-    "leadership_team": [
+    "current_team": [
         {
             "name": "Rahul Banker",
-            "imageSrc": "/assets/contributors/leaders/rahul_banker.jpeg",
+            "imageSrc": "/assets/contributors/team/rahul_banker.jpg",
             "position": "Organizer"
         },
         {
-            "name": "Manan Jadhav",
-            "imageSrc":"/assets/contributors/leaders/manan_jadhav.jpeg",
-            "position": "Co-Organizer" 
+            "name": "Dron Trivedi",
+            "imageSrc": "/assets/contributors/team/dron_trivedi.jpg",
+            "position": "Organizer"
         },
         {
-            "name": "Sneh Pandya",
-            "imageSrc": "/assets/contributors/leaders/sneh_pandya.jpeg",
-            "position": "Co-Organizer"
+            "name": "Hardip Patel",
+            "imageSrc": "/assets/contributors/team/hardip_patel.jpg",
+            "position": "Organizer"
         },
         {
-            "name": "Mamta Gelanee",
-            "imageSrc": "/assets/contributors/leaders/mamta_g.jpeg",
-            "position": "Co-Organizer"
+            "name": "Kushal Dave",
+            "imageSrc": "/assets/contributors/team/kushal_dave.jpg",
+            "position": "Core Team Member"
+        },
+        {
+            "name": "Jigish Dalal",
+            "imageSrc": "/assets/contributors/team/jigish_dalal.jpg",
+            "position": "Team Member"
+        },
+        {
+            "name": "Yuvraj Ahuja",
+            "imageSrc": "/assets/contributors/team/yuvraj_ahuja.jpg",
+            "position": "Volunteer"
+        },
+        {
+            "name": "Devansh Rajan",
+            "imageSrc": "/assets/contributors/team/devansh_rajan.jpg",
+            "position": "Volunteer"
+        },
+        {
+            "name": "Shivansh Darji",
+            "imageSrc": "/assets/contributors/team/shivansh_darji.jpg",
+            "position": "Team Member"
+        },
+        {
+            "name": "Ayush Makwana",
+            "imageSrc": "/assets/contributors/team/ayush_makwana.jpg",
+            "position": "Team Member"
+        },
+        {
+            "name": "Hardik Mistry",
+            "imageSrc": "/assets/contributors/members/hardik_mistry.jpeg",
+            "position": "Team Member"
         }
     ],
-    "active_members": [        
+    "active_members": [
         {
             "name": "Aditya Patel",
             "imageSrc": "/assets/contributors/members/aditya_patel.jpeg"
@@ -39,20 +69,12 @@
             "imageSrc": "/assets/contributors/members/dhruv_apte.jpeg"
         },
         {
-            "name": "Dron Trivedi",
-            "imageSrc": "/assets/contributors/members/dron_trivedi.jpeg"
+            "name": "Mamta Gelanee",
+            "imageSrc": "/assets/contributors/leaders/mamta_g.jpeg"
         },
         {
-            "name": "Hardik Mistry",
-            "imageSrc": "/assets/contributors/members/hardik_mistry.jpeg"
-        },
-        {
-            "name": "Hardip Patel",
-            "imageSrc": "/assets/contributors/members/hardip_patel.jpeg"
-        },
-        {
-            "name": "Kushal Dave",
-            "imageSrc": "/assets/contributors/members/kushal_dave.jpeg"
+            "name": "Manan Jadhav",
+            "imageSrc": "/assets/contributors/leaders/manan_jadhav.jpeg"
         },
         {
             "name": "Prachi Durge",
@@ -61,6 +83,10 @@
         {
             "name": "Pratik Parmar",
             "imageSrc": "/assets/contributors/members/pratik_parmar.jpeg"
+        },
+        {
+            "name": "Sneh Pandya",
+            "imageSrc": "/assets/contributors/leaders/sneh_pandya.jpeg"
         },
         {
             "name": "Tanvi Shah",
