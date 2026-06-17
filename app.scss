@@ -109,4 +109,11 @@ p {
   margin-bottom: 0;
 }
 
+.contributor-card {
+  margin-bottom: 30px;
+  img {
+    margin-bottom: 8px;
+  }
+}
+
 @import "post";

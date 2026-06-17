@@ -8,7 +8,7 @@ layout: page
         <div class="row text-center">
             {% assign current_sorted = site.data.contributors.current_team | sort_natural: 'name' %}
             {% for contributor in current_sorted %}
-            <div class="col-md-3 col-xs-6 col-sm-4">
+            <div class="col-md-3 col-xs-6 col-sm-4 contributor-card">
                 <img src="{{contributor.imageSrc}}" class="center-block img-responsive img-circle" alt="{{contributor.name}}" height="100" width="100" loading="lazy">
                 <h5 class="margin-bottom-0">{{contributor.name}}</h5>
                 <p class="text-uppercase">{{contributor.position}}</p>
@@ -36,7 +36,7 @@ layout: page
             <div class="row text-center">
                 {% assign members_sorted = site.data.contributors.active_members | sort_natural: 'name' %}
                 {% for member in members_sorted %}
-                <div class="col-md-3 col-xs-6 col-sm-6">
+                <div class="col-md-3 col-xs-6 col-sm-6 contributor-card">
                     <img src={{member.imageSrc}} class=" center-block img-responsive img-circle" alt="{{member.name}}" height="100" width="100">
                     <h5 class="margin-bottom-0">{{member.name}}</h5>
                 </div>
