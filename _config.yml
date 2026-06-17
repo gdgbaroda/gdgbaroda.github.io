@@ -36,7 +36,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: cover-image-team.jpg
+      image: /assets/community/devfest-2025-group.jpg
 
 # Build settings
 markdown: kramdown
