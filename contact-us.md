@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-### Contact Us
+# Contact Us
 
 Contacting GDG Baroda is not a Herculean task. You just need to be in the right places:
 

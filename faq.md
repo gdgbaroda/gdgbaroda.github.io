@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-### FAQs
+# FAQs
 
 <br />
 #### What is a GDG?

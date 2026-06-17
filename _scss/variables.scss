@@ -1,10 +1,19 @@
-$darkest: #000000;
-$darker: #090909;
-$dark: #191919;
-$black: #202124;
-$light: #757575;
-$lighter: #cecece;
-$lightest: #fefefe;
-$white: #ffffff;
+// =============================================================
+//  THE BARODA DISPATCH — design tokens (SCSS layer)
+//  A developer-community broadsheet. Warm ink on paper.
+// =============================================================
 
-$link-color: #1a73e8;
+// — ink & paper —
+$ink:        #16130E; // primary text, nameplate, rules (warm near-black, never #000)
+$newsprint:  #F6F1E7; // page ground — warm off-white paper
+$paper:      #FFFDF8; // raised surfaces — body column, panels
+$graphite:   #5C564B; // secondary text, datelines, captions, mono meta
+$hairline:   #D9D1BF; // rules, dividers, table borders, dot-grid
+
+// — the google four (rationed, never gradient-washed) —
+$g-blue:     #4285F4; // links / web / primary CTA / drop-cap / strip 1
+$g-red:      #EA4335; // events / live / urgent tags / strip 2
+$g-yellow:   #FBBC04; // highlight / AI-ML / hover flash / strip 3
+$g-green:    #34A853; // community / join / success / strip 4
+
+$marker:     rgba(251, 188, 4, .22); // inline <mark> wash

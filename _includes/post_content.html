@@ -1,18 +1,36 @@
-<h3 class="post-title">{{page.title}}</h3>
-<div class="post-meta">
-  Posted by {{page.author}} in
-  {% for category in page.categories%}
-    <span class="label label-primary">{{category}}</span>
-  {% endfor %}
-  <br />
-  Tags : 
-  {% for tag in page.tags%}
-    <span class="label label-default">{{tag}}</span>
-  {% endfor %}
-  <br />
-  <b>{{page.date | date_to_long_string}}</b>
-</div>
-<br /><br />
-<div class="post-content">
-  {{content}}
+<header class="article-head">
+  {% assign cat = page.categories | first | default: 'community' | downcase %}
+  {% if cat contains 'event' %}<span class="kicker">events</span>
+  {% elsif cat contains 'cloud' or cat contains 'web' %}<span class="kicker" style="color:var(--g-blue)">{{ page.categories | first }}</span>
+  {% elsif cat contains 'learn' or cat contains 'deep' or cat contains 'ai' %}<span class="kicker" style="color:#9a7400">{{ page.categories | first }}</span>
+  {% else %}<span class="kicker" style="color:var(--g-green)">community</span>{% endif %}
+
+  <h1>{{ page.title }}</h1>
+
+  <p class="post-meta">
+    By <span class="byline-name">{{ page.author }}</span>
+    &nbsp;·&nbsp; {{ page.date | date: "%B %-d, %Y" }}
+  </p>
+
+  {% if page.categories or page.tags %}
+  <div class="chips">
+    {% for category in page.categories %}
+      {% assign c = category | downcase %}
+      {% if c contains 'event' %}{% assign tcls = 'tag--events' %}
+      {% elsif c contains 'cloud' or c contains 'web' %}{% assign tcls = 'tag--web' %}
+      {% elsif c contains 'learn' or c contains 'deep' or c contains 'ai' %}{% assign tcls = 'tag--ai' %}
+      {% else %}{% assign tcls = 'tag--community' %}{% endif %}
+      <span class="tag {{ tcls }}">{{ category }}</span>
+    {% endfor %}
+    {% for tag in page.tags %}
+      <span class="tag tag--web">#{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+</header>
+
+<div class="prose">
+  <div class="post-content">
+    {{ content }}
+  </div>
 </div>
