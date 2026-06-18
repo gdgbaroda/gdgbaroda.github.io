@@ -184,3 +184,42 @@
   border-color: var(--g-blue);
   box-shadow: 4px 4px 0 var(--g-blue);
 }
+
+/* ===================== DevFest timeline ===================== */
+.timeline { list-style: none; margin: 1.8rem 0 0; padding: 0; }
+.tl { display: grid; grid-template-columns: 4.5rem 1fr; gap: 0 1.4rem; }
+.tl-year {
+  font-family: var(--display); font-weight: 600; font-size: 1.7rem;
+  line-height: 1; margin: 0; padding-top: .05rem; color: var(--ink);
+}
+.tl-body {
+  border-left: var(--rule) solid var(--hairline);
+  padding: 0 0 2rem 1.5rem; position: relative;
+}
+.tl:last-child .tl-body { padding-bottom: .3rem; }
+.tl-body::before {
+  content: ''; position: absolute; left: -7px; top: .35rem;
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--g-blue); box-shadow: 0 0 0 3px var(--newsprint);
+}
+.tl:nth-child(4n+2) .tl-body::before { background: var(--g-red); }
+.tl:nth-child(4n+3) .tl-body::before { background: var(--g-yellow); }
+.tl:nth-child(4n)   .tl-body::before { background: var(--g-green); }
+.tl-date {
+  font-family: var(--mono); font-size: .76rem; letter-spacing: .06em;
+  text-transform: uppercase; margin: 0 0 .2rem; color: var(--ink);
+}
+.tl-where { margin: 0; color: var(--graphite); }
+.tl-note { margin: .3rem 0 0; color: var(--graphite); font-size: .95rem; }
+.tl-body .ed { display: inline-block; margin-top: .55rem; }
+.tl--soft .tl-year, .tl--soft .tl-date { color: var(--graphite); }
+.tl-foot {
+  margin: 1.8rem 0 0; padding-top: 1rem; border-top: var(--rule) solid var(--hairline);
+  font-size: .9rem; color: var(--graphite);
+}
+@media (max-width: 480px) {
+  .tl { grid-template-columns: 1fr; }
+  .tl-year { padding: 0 0 .25rem 1.5rem; }
+  .tl-body { border-left: none; padding-left: 1.5rem; }
+  .tl-body::before { display: none; }
+}
