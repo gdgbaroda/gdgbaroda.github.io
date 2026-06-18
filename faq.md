@@ -18,7 +18,7 @@ As a student, you will be learning how to use new Google products and even the c
 Absolutely not! At GDG Baroda, we have graphic designers, start-up enthusiasts and college students who are not acquainted with coding. GDG is not just a developer community; it is much more than that!
 
 #### Where and when do you guys meet?
-Our meeting place is not usually fixed(subject to availability of the place). But it will be a nice, safe and sound place! We usually meet once a month. You can checkup our next meetup and connect with us on our [meetup.com page](https://www.meetup.com/gdgbaroda/).
+Our meeting place is not usually fixed(subject to availability of the place). But it will be a nice, safe and sound place! We usually meet once a month. You can find our upcoming events and connect with us on our [GDG Community page](https://gdg.community.dev/gdg-baroda/).
 
 #### Can I share my office space or personal space for a meetup?
 Sure! But it is advisable to talk about this to the organizers before hosting a meetup at your place.
