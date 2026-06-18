@@ -212,6 +212,12 @@
 .tl-where { margin: 0; color: var(--graphite); }
 .tl-note { margin: .3rem 0 0; color: var(--graphite); font-size: .95rem; }
 .tl-body .ed { display: inline-block; margin-top: .55rem; }
+.tl-photo {
+  display: block; width: 100%; max-width: 22rem; aspect-ratio: 16 / 9;
+  object-fit: cover; border: var(--rule) solid var(--ink);
+  margin: 0 0 .85rem; filter: grayscale(1); transition: filter .5s var(--ease);
+}
+.tl:hover .tl-photo { filter: grayscale(0); }
 .tl--soft .tl-year, .tl--soft .tl-date { color: var(--graphite); }
 .tl-foot {
   margin: 1.8rem 0 0; padding-top: 1rem; border-top: var(--rule) solid var(--hairline);
