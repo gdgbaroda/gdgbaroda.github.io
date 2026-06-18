@@ -369,8 +369,8 @@ a.ed:hover, a.ed:focus-visible { background-size: 100% 2px; }
 .nameplate {
   font-family: var(--display);
   font-weight: 600;
-  font-size: clamp(3rem, 13vw, 11rem);
-  line-height: .86;
+  font-size: clamp(2.25rem, 7vw, 5.5rem);
+  line-height: .9;
   letter-spacing: -.025em;
   margin: .12em 0 .22em;
   font-variation-settings: 'opsz' 144, 'SOFT' 30;
@@ -779,7 +779,7 @@ a.ed:hover, a.ed:focus-visible { background-size: 100% 2px; }
 .hero-rest { padding-block: clamp(1.75rem, 4vw, 2.75rem); }
 .press-band img {
   width: 100%;
-  height: clamp(190px, 36vw, 420px);
+  height: clamp(240px, 42vw, 520px);
   object-fit: cover;
   object-position: center 32%;
   filter: grayscale(1) contrast(1.02);
