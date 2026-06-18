@@ -773,9 +773,10 @@ a.ed:hover, a.ed:focus-visible { background-size: 100% 2px; }
 
 /* ===================== press photo band ===================== */
 .press-band {
-  margin: clamp(1.5rem, 4vw, 3rem) 0 0;
+  margin: 0;
   border-block: var(--rule) solid var(--ink);
 }
+.hero-rest { padding-block: clamp(1.75rem, 4vw, 2.75rem); }
 .press-band img {
   width: 100%;
   height: clamp(190px, 36vw, 420px);
