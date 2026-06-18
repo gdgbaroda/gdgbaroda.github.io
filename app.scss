@@ -781,7 +781,7 @@ a.ed:hover, a.ed:focus-visible { background-size: 100% 2px; }
   width: 100%;
   height: clamp(240px, 42vw, 520px);
   object-fit: cover;
-  object-position: center 32%;
+  object-position: center 82%;
   filter: grayscale(1) contrast(1.02);
   transition: filter .5s var(--ease);
 }
